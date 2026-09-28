@@ -1,0 +1,31 @@
+site_name: Super Skin Pro Documentation
+theme:
+  name: readthedocs
+
+plugins:
+  - search
+
+nav:
+
+    - Introduction: index.md
+    - Interface Documents: skinning_tab.md
+    - Release Notes : release_notes.md
+    - FAQ : faq.md
+    - How to Install: installation.md
+
+
+
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/readthedocs-dark.css
