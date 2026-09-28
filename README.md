@@ -1,6 +1,6 @@
 # superskinpro-docs
 
-Source for https://docs.superskinpro.com/ (MkDocs, readthedocs theme).
+Source for https://tonmaiart.github.io/superskinpro-docs/ (MkDocs, readthedocs theme).
 
 - Edit pages in `docs/`, navigation in `mkdocs.yml`.
 - Preview locally: `pip install -r requirements.txt` then `mkdocs serve`.
