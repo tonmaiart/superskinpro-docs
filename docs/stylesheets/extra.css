@@ -6,3 +6,14 @@ figure {
 figure img {
   max-width: 100%;
 }
+
+/* Inline code / shortcut keys: black, bold text */
+.rst-content code:not(pre code),
+.rst-content tt:not(pre tt) {
+  color: #000;
+  font-weight: bold;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 85%;
+  letter-spacing: 0.02em;
+  padding: 1px 6px;
+}

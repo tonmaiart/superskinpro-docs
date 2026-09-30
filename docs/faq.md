@@ -2,7 +2,7 @@
 
 ## 1. Which Blender versions does the Add-on support?
 
-Check which Blender version each Add-on version supports on the [Release Notes](release_notes.md) page.
+Support Blender 4.2 / 4.5 / 5.0 / 5.2 
 
 ## 2. Can I set my own shortcuts?
 
