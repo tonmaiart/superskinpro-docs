@@ -9,10 +9,10 @@ plugins:
 nav:
 
     - Introduction: index.md
-    - Interface Documents: skinning_tab.md
-    - Release Notes : release_notes.md
-    - FAQ : faq.md
+    - How to use: skinning_tab.md
     - How to Install: installation.md
+    - FAQ : faq.md
+    - Release Notes : release_notes.md
 
 
 

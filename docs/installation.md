@@ -1,3 +1,9 @@
+
+
+<figure markdown>
+![Edit Tools](assets/images/installation.gif)
+</figure>
+
 # Drag and Drop Installation
 
 1. **Download** the Super Skin Pro `.zip` file from [Gumroad](https://tomatactics.gumroad.com/l/superskinpro)
