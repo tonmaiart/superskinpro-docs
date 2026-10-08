@@ -34,16 +34,12 @@ The Weight Transfer window has the following components:
 
 # Weight Export
 
-<figure markdown>
-![Deform Bone List](assets/images/weight_export.png)
-</figure>
-
 You can export all the Layer Data and Skin Weight from a selected Mesh to a file, for backing up a version or sending to someone else.
 
-**How to Export**
+**How to use**
 
 1. Select the Mesh you want
-2. Export Weights to JSON...
+2. Click Export Weights
 
 <br>
 - - -
@@ -52,25 +48,15 @@ You can export all the Layer Data and Skin Weight from a selected Mesh to a file
 # Weight Import
 
 <figure markdown>
-![Deform Bone List](assets/images/weight_import.png)
+![Deform Bone List](assets/images/weight_export.png)
 </figure>
 
-**You can Import Layer Data as follows:**
+How to use:
 
-1. Select the model you want
+1. Select the target model.
 
-2. Press Import Layer to Selected Mesh...
+2. Click the Import button.
 
-There are additional Import options:
+- You can choose a weight transfer method when importing, such as Closest Distance or Vertex ID.
 
-**Insert Method :**
-
-- Overwrite: replaces all Layer data with the imported data (default).
-
-- Append: adds the Layers in, keeping all existing Layers.
-
-**Transfer Method :**
-
-- Closest Distance: transfers data based on the closest distance (default).
-
-- Vertex ID: transfers data based on Vertex ID (import won't work if the Mesh's vertex count doesn't match the imported file).
+- Enable the Keep Old Layer Data checkbox to preserve existing layers on the mesh.
