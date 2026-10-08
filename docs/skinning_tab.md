@@ -55,11 +55,20 @@ In the bone and layer list, you can use the following shortcuts:
 - - -
 
 
-**Other Tools**
+### Object Mode Tools
 
+For more details, see [Object Mode Tools](object_tools.md).
 
-Shows various tools, depending on the current Mode:
+<figure markdown>
+  ![Object Mode Tools](assets/images/object_tools.png)
+</figure>
 
-- [Object Mode tools](object_tools.md)
-- [Paint Weight Mode tools](edit_tools.md)
+---
 
+### Weight Paint Mode Tools
+
+For more details, see [Weight Paint Mode Tools](edit_tools.md).
+
+<figure markdown>
+  ![Weight Paint Mode Tools](assets/images/apply_weights.png)
+</figure>
