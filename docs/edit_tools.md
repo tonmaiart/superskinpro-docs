@@ -1,11 +1,19 @@
 # Paint Weight Tools
 
 <figure markdown>
-![Edit Tools](assets/images/apply_weights.png)
+![Edit Tools](assets/images/apply_weights.png) 
 </figure>
 
 ### Weight Apply Slider
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 1.5rem;">
+  <iframe 
+    src="https://www.youtube.com/embed/n2bP1M5w_TI" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+</div>
 
 Used to choose which tool to Paint Weight with — Brush Paint or Vertex Selection. The main Skin Weight operations are:
 - Add Weight
@@ -13,10 +21,18 @@ Used to choose which tool to Paint Weight with — Brush Paint or Vertex Selecti
 - Smooth Weight
 - Sharpen Weight
 
-See more details on how to use it at [Using Vertex and Brush Tutorial Video](https://youtu.be/n2bP1M5w_TI)
 - - -
 
 ### Mirror Weight
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 1.5rem;">
+  <iframe 
+    src="https://www.youtube.com/embed/3bBY6CPEP9I" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+</div>
 
 Mirrors the weight of the Layer selected in the [Layer List](bone_list.md#layer-list), with the following additional settings:
 
@@ -37,12 +53,13 @@ Mirrors the weight of the Layer selected in the [Layer List](bone_list.md#layer-
 ![Deform Bone List](assets/images/auto_block_weight.gif)
 </figure>
 
-Automatically calculates weight from the selected Bones, as follows:
+Automatically calculates weights from the selected bones as follows:
 
-1. Select any number of Bones
-2. Press the Auto Block Weight button
+1. Select the bones you want to auto-assign.
+2. Click the Block Weight button.
 
 **Note :** Block Weight pulls weight from Bones that are not Locked, so check your Bone Locks carefully for a correct Block Weight result.
+
 - - -
 
 ### Self Transfer
@@ -67,6 +84,11 @@ Clipboard a Bone Weight or Mask Weight value, as follows:
 
 Hammer selected vertices to average their weights.
 
+<figure markdown>
+![Edit Tools](assets/images/hammer_weight.gif) 
+</figure>
+
+- - -
 
 ### Multi-Color Preview
 
