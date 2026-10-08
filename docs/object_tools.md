@@ -1,32 +1,49 @@
-### Weight Transfer
+# Object Mode Tools
 
 <figure markdown>
 ![Deform Bone List](assets/images/object_tools.png)
 </figure>
 
-Weight Transfer is a tool that transfers weight from one model to multiple other models.
+- - -
 
-The Weight Transfer window has the following components:
+### Weight Transfer
 
 
+Weight Transfer can be applied in many ways, such as:
+
+### 1) Transfer weights from the body to clothing and accessories
 
 <figure markdown>
-![Deform Bone List](assets/images/weight_transfer_detail.png)
+  ![Weight Transfer Body to Clothing](assets/images/transfer1.gif)
 </figure>
 
-## 1. List of Models to Transfer Weight
+**How to use:**
 
-- You can add or remove selected models from the list.
+1. Add both the body and clothing to the Transfer list.
+2. Mark the body mesh as **Source**.
+3. Click **Transfer**.
 
-- The Toggle Is Source button at the end of the row marks that model as the Source for the weight transfer — every other model becomes a Target automatically.
+---
 
-- The Used Selected Vertices Only button at the end of the row limits the scope of the transfer to only the selected Vertices (select Vertices in Edit Mode).
+### 2) Transfer weights from multiple meshes
 
-## 2. Transfer Setting
+<figure markdown>
+  ![Weight Transfer Multiple Meshes](assets/images/transfer2.gif)
+</figure>
 
-- Keep Old Layer Data: if the Target Model already has Layers, leaving this unchecked (default) replaces all Layers, while checking it adds the new Layers instead, keeping the old ones.
+**How to use:**
 
-- Transfer Method: Closest Distance transfers weight based on distance (default). Vertex Id transfers weight based on Vertex Id (this won't work if the Source and Target models don't have the same vertex count).
+1. Add the source meshes and the target mesh to the Transfer list.
+2. Mark the relevant meshes as **Source**.
+3. Click **Transfer**.
+
+---
+
+**Note:**
+
+- You can restrict the transfer to specific source or target areas by enabling the **Use Selected Vertices** toggle (the selection must exist in Edit Mode).
+- You can choose a weight transfer method, such as **Closest Distance** or **Vertex ID**.
+- Enable the **Keep Old Layer Data** checkbox to preserve existing layers on the mesh.
 
 <br>
 - - -

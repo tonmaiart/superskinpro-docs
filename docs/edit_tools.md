@@ -80,9 +80,9 @@ Clipboard a Bone Weight or Mask Weight value, as follows:
 
 - - -
 
-### Hammer
+### Hammer Weight
 
-Hammer selected vertices to average their weights.
+Click the Hammer button to hammer selected vertices to average their weights.
 
 <figure markdown>
 ![Edit Tools](assets/images/hammer_weight.gif) 
