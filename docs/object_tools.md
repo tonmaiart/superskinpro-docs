@@ -1,7 +1,7 @@
 ### Weight Transfer
 
 <figure markdown>
-![Deform Bone List](assets/images/weight_transfer.png)
+![Deform Bone List](assets/images/object_tools.png)
 </figure>
 
 Weight Transfer is a tool that transfers weight from one model to multiple other models.
