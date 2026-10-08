@@ -18,10 +18,18 @@ In the next section below, we’ll take an in-depth look at the interface and it
 **Active Bind Mesh**
 
 Shows the currently selected Mesh. [See more on managing Bind Mesh](bindmesh.md)
+
 - - -
+
 **Mode Toggle**
 
-Press to switch mode between Object Mode, Pose Mode, and Edit Weight Mode.
+Quick buttons for switching between
+
+- Object Mode
+- Paint Weight (Brush)
+- Paint Weight (Vertex)
+- Pose modes.
+
 - - -
 
 
@@ -33,9 +41,15 @@ The Layer List displays all layers used in the model's skin weights. You can add
 
 Notes:
 
-- While in Edit Weight Mode, you can select bones directly from this list or by clicking them in the viewport. How to select bones in the viewport
+- While in Edit Weight Mode, you can select bones directly from this list or by clicking them in the viewport with [Select bones in viewport](bone_picker.md)
 
-- Supports Ctrl or Shift to select multiple items at once.
+In the bone and layer list, you can use the following shortcuts:
+
+- Ctrl or Shift and Select : Select multiple items
+
+- Ctrl + A: Select all items
+
+- Ctrl + I: Invert selection
 
 
 - - -

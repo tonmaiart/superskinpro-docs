@@ -3,7 +3,7 @@
 You can select a vertex group through the Deform Bone List, but in most cases it's faster to select it directly through the Bone shown in the viewport.
 
 
-Hold `Alt+2` to enter Bone Picker mode (you'll notice a "Bone Picker" text label appear in the viewport).
+Hold `Alt+2` to enter Bone Picker mode.
 
 While in Bone Picker mode, you have these additional shortcuts:
 
