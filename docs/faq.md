@@ -24,7 +24,7 @@ See [Clean-up Layer Data](bindmesh.md) for more details.
 
 Super Skin Pro doesn't use Blender's native Weight Paint Mode brush system directly. Instead it follows a **select vertices first, then adjust weight** approach through the Apply Weight tools: Add Weight, Scale Weight, Smooth Weight, and Sharpen Weight — adjustable either via the UI slider or a mouse-drag shortcut.
 
-For selecting vertices, you can use the Circle Select tool, whose radius adjusts just like a regular brush, giving you speed close to painting while keeping precise control over the weight at each step. See the [Weight Apply Operation](operation.md) page for more details.
+For selecting vertices, you can use the Circle Select tool, whose radius adjusts just like a regular brush, giving you speed close to painting while keeping precise control over the weight at each step. See the [Weight Apply Slider](edit_tools.md#weight-apply-slider) page for more details.
 
 ## 5. Where can I ask further questions or report issues?
 
