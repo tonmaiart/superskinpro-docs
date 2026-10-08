@@ -1,21 +1,12 @@
+# Drag-and-Drop Installation
 
+1. **Download** the SuperSkinPro `.zip` file from [Gumroad](https://tomatactics.gumroad.com/l/superskinpro).
+2. Open **Blender**, drag and drop the `.zip` file directly into the Blender viewport/window, and confirm the installation.
+3. **Restart Blender** after installing or updating the add-on.
+4. Once installed, SuperSkinPro will appear in the **N-Panel** sidebar.
 
-<figure markdown>
-![Edit Tools](assets/images/installation.gif)
-</figure>
+---
 
-# Drag and Drop Installation
+# How to Update
 
-1. **Download** the Super Skin Pro `.zip` file from [Gumroad](https://tomatactics.gumroad.com/l/superskinpro)
-2. Open **Blender**, then drag and drop the `.zip` file onto the Blender window and confirm the install.
-5. Once installed, SuperSkinPro will appear in the N-Panel sidebar. Enter your Activate Key from Gumroad and press Activate to finish.
-
-# Manual Installation
-
-If drag-and-drop installation doesn't work, you can install manually instead.
-
-1. **Download** the Super Skin Pro `.zip` file from [Gumroad](https://tomatactics.gumroad.com/l/superskinpro)
-2. Go to `Edit > Preferences > Add-ons`
-3. Click **`Install...`** (top-right corner)
-4. Select the downloaded `.zip` file, then click **`Install Add-on`**
-5. Once installed, SuperSkinPro will appear in the N-Panel sidebar. Enter your Activate Key from Gumroad and press Activate to finish.
+When a new update is released, you can redownload the latest SuperSkinPro files from your [Gumroad Library](https://gumroad.com/library) and repeat the installation steps above.
