@@ -1,4 +1,4 @@
-# Edit Weight Tools
+# Paint Weight Tools
 
 <figure markdown>
 ![Edit Tools](assets/images/apply_weights.png)
@@ -6,7 +6,6 @@
 
 ### Weight Apply Slider
 
-Press Alt+3 to Preview Multi Color
 
 Used to choose which tool to Paint Weight with — Brush Paint or Vertex Selection. The main Skin Weight operations are:
 - Add Weight
@@ -67,3 +66,10 @@ Clipboard a Bone Weight or Mask Weight value, as follows:
 ### Hammer
 
 Hammer selected vertices to average their weights.
+
+
+### Multi-Color Preview
+
+Press Alt + 3 to toggle Multi-Color Preview.
+
+Note: Multi-Color mode may impact performance.

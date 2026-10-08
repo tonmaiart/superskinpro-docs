@@ -25,27 +25,15 @@ While in Bone Picker mode, you have these additional shortcuts:
 
 <br>
 
-**Preview Weight Color ( Hover ):** As you hover your cursor over a bone, you'll immediately see a preview of that bone's Overlay Color.
+**- Release Alt+2 :** Selects whichever bone is currently hovered.
 
-**Select Active Bone ( Release ):** Releasing the shortcut selects whichever bone is currently hovered.
+**- Left Click:** Adds bones to the selection (multi-selection).
 
-**Append Bone ( Left Click ):** Adds more bones to the selection.
+**- Middle Click:** Deselects bones from the selection.
 
-**Remove Bone ( Middle Click ):** Deselects bones.
+**- Right Click (Cancel):** Cancels bone picking mode.
 
-**Cancel Bone Picking ( Right Click ):** Cancels and exits Bone Picker mode immediately.
-
-<br>
-<br>
 ---
-<br>
-<br>
 
 ### Bone Size Adjusting
 You can adjust the bone display size via Setting > Bone Overlay Size.
-
-  <figure style="width: 33%; margin: 0;">
-    <img src="../assets/images/bone_size_adjust.png" alt="Wildcard Search">
-    <figcaption><b>Adjust Bone Size via setting</b></figcaption>
-  </figure>
-

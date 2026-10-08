@@ -60,6 +60,6 @@ In the bone and layer list, you can use the following shortcuts:
 
 Shows various tools, depending on the current Mode:
 
-- [Object Mode toolset](object_tools.md)
-- [Edit Weight Mode toolset](edit_tools.md)
+- [Object Mode tools](object_tools.md)
+- [Paint Weight Mode tools](edit_tools.md)
 
