@@ -21,9 +21,7 @@ Weight Transfer can be applied in many ways, such as:
 
 1. Add both the body and clothing to the Transfer list.
 2. Mark the body mesh as **Source**.
-3. Click **Transfer**.
-
----
+3. Click **Transfer Weight**.
 
 ### 2) Transfer weights from multiple meshes
 
@@ -35,7 +33,7 @@ Weight Transfer can be applied in many ways, such as:
 
 1. Add the source meshes and the target mesh to the Transfer list.
 2. Mark the relevant meshes as **Source**.
-3. Click **Transfer**.
+3. Click **Transfer Weight**.
 
 ---
 
