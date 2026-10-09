@@ -22,10 +22,10 @@
 
 # 1.0.6
 
-* **Shortcut Guide:** Press `Alt + 4` while editing to toggle the Shortcut Guide.
-* **Mask Edit Toggle:** Press `Alt + 1` while editing to toggle Mask Edit mode.
+* **Shortcut Guide:** Press <kbd>Alt</kbd> + <kbd>4</kbd> while editing to toggle the Shortcut Guide.
+* **Mask Edit Toggle:** Press <kbd>Alt</kbd> + <kbd>1</kbd> while editing to toggle Mask Edit mode.
 * **Selection Persistence:** Exiting Mask Edit mode now preserves all active selections in the Deform Bone list.
-* **Repeat Last Operation:** Added support for `Shift + R` to repeat the most recent Apply Weight operation.
+* **Repeat Last Operation:** Added support for <kbd>Shift</kbd> + <kbd>R</kbd> to repeat the most recent Apply Weight operation.
 * **UI Improvements:** Enhanced the user interface for both the Layer List and Deform Bone List sections.
 
 **Bug Fixes :**

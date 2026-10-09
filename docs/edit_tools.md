@@ -90,6 +90,6 @@ Click the Hammer button to hammer selected vertices to average their weights.
 
 ### Multi-Color Preview
 
-Press Alt + 3 to toggle Multi-Color Preview.
+Press <kbd>Alt</kbd> + <kbd>3</kbd> to toggle Multi-Color Preview.
 
 Note: Multi-Color mode may impact performance.

@@ -3,7 +3,7 @@
 You can select a vertex group through the Deform Bone List, but in most cases it's faster to select it directly through the Bone shown in the viewport.
 
 
-Hold `Alt+2` to enter Bone Picker mode.
+Hold <kbd>Alt</kbd> + <kbd>2</kbd> to enter Bone Picker mode.
 
 While in Bone Picker mode, you have these additional shortcuts:
 
@@ -25,13 +25,13 @@ While in Bone Picker mode, you have these additional shortcuts:
 
 <br>
 
-**- Release Alt+2 :** Selects whichever bone is currently hovered.
+**- Release <kbd>Alt</kbd> + <kbd>2</kbd> :** Selects whichever bone is currently hovered.
 
-**- Left Click:** Adds bones to the selection (multi-selection).
+**- <kbd>Left Click</kbd>:** Adds bones to the selection (multi-selection).
 
-**- Middle Click:** Deselects bones from the selection.
+**- <kbd>Middle Click</kbd>:** Deselects bones from the selection.
 
-**- Right Click (Cancel):** Cancels bone picking mode.
+**- <kbd>Right Click</kbd> (Cancel):** Cancels bone picking mode.
 
 ---
 

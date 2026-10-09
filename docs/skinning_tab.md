@@ -32,23 +32,37 @@ Quick buttons for switching between
 - - -
 
 
-**Bone & Layer List**
+### Layer & Bone List
 
-The Bone List includes a Lock/Unlock toggle for each bone to prevent its weights from being altered or stolen while in Edit Weight Mode.
+<figure markdown="span">
+  ![Layer and Bone List](assets/images/deform_bone_list.png)
+</figure>
 
-The Layer List displays all layers used in the model's skin weights. You can add, delete, reorder, duplicate, rename, merge, and toggle the visibility of each layer. Each layer also has its own weight mask, which you can modify using the Edit Tools.
+#### Layer List (Top)
 
-Notes:
+Displays all skin weight layers. You can add, delete, reorder, duplicate, merge, and toggle the visibility of each layer. [Watch Layer Tutorial](https://youtu.be/PYMJwbvAdoY)
 
-- While in Edit Weight Mode, you can select bones directly from this list or by clicking them in the viewport with [Select bones in viewport](bone_picker.md)
+* **Enable / Disable:** Toggle layer activation by clicking the icon in front of the layer item.
+* **Rename:** Double-click the layer name to rename it.
+
+#### Bone List (Bottom)
+
+Displays the active deform bones for the selected layer.
+
+* **Lock / Unlock:** Click the lock icon in front of any bone to prevent [weight bleeding](https://youtu.be/B4HqxA83n0k).
+* **Focus Viewport:** Double-click a bone to focus on it in the 3D viewport.
+* **Filter Influenced Bones:** Toggle via the button in the right menu to display only bones with weights.
+
+In Weight Paint Mode, instead of selecting bones from the list, you can [select bones in the viewport.](bone_picker.md)
+
+#### Useful Shortcuts
 
 In the bone and layer list, you can use the following shortcuts:
 
-- Ctrl or Shift and Select : Select multiple items
-
-- Ctrl + A: Select all items
-
-- Ctrl + I: Invert selection
+* <kbd>Ctrl</kbd> + <kbd>Click</kbd>: Add or remove items individually
+* <kbd>Shift</kbd> + <kbd>Click</kbd>: Select a range of items
+* <kbd>Ctrl</kbd> + <kbd>A</kbd> or <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>Click</kbd> : Select all items in the list.
+* <kbd>Ctrl</kbd> + <kbd>I</kbd>: Invert selection
 
 
 - - -
