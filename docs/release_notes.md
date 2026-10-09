@@ -1,4 +1,9 @@
+# 1.0.11
+
+- Entering Blender's native Weight Paint Mode no longer forces the add-on mode, preserving standard workflows for non-deform vertex groups.
+
 # 1.0.10
+
 - Added a status for meshes with layer data but missing an armature modifer.
 - Added pressure sensitivity toggles for brush size, hardness, and strength.
 - Added a Normalize Weights button to the Limit Total popup.
