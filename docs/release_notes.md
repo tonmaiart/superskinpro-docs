@@ -1,3 +1,10 @@
+# 1.0.10
+- Added a status for meshes with layer data but missing an armature modifer.
+- Added pressure sensitivity toggles for brush size, hardness, and strength.
+- Added a Normalize Weights button to the Limit Total popup.
+- Increased the maximum brush size limit for surface brushes.
+- Fixed an issue where applying weights affected non-deform vertex groups. (Crucial Bug)
+
 # 1.0.9
 
 - Added a button to switch to Object Mode.
