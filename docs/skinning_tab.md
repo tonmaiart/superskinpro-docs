@@ -17,8 +17,7 @@ In the next section below, we’ll take an in-depth look at the interface and it
 
 **Active Bind Mesh**
 
-Shows the currently selected Mesh. [See more on managing Bind Mesh](bindmesh.md)
-
+Displays the currently selected mesh. You can bake its layer data via [Bake Layer Data to Blender Native](bindmesh.md)
 - - -
 
 **Mode Toggle**

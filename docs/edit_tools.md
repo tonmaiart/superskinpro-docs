@@ -6,6 +6,8 @@
 
 ### Weight Apply
 
+In this video, you'll learn how to apply all weight operations using both brush painting and vertex selection.
+
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 1.5rem;">
   <iframe 
     src="https://www.youtube.com/embed/n2bP1M5w_TI" 
@@ -15,15 +17,11 @@
   </iframe>
 </div>
 
-Used to choose which tool to Paint Weight with — Brush Paint or Vertex Selection. The main Skin Weight operations are:
-- Add Weight
-- Scale Weight
-- Smooth Weight
-- Sharpen Weight
-
 - - -
 
 ### Mirror Weight
+
+In this video, you'll learn how to use mirror weights and their settings.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 1.5rem;">
   <iframe 
