@@ -1,3 +1,9 @@
+# 1.0.12
+
+- Fixed an issue where the bone picker only checked the first Armature modifier.
+- Fixed skin weights breaking after editing meshes.
+- Fixed performance drops when applying weights.
+
 # 1.0.11
 
 - Entering Blender's native Weight Paint Mode no longer forces the add-on mode, preserving standard workflows for non-deform vertex groups.
