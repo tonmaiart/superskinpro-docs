@@ -1,8 +1,12 @@
+# 1.0.13
+
+- Weight Transfer fix: when “Use Selected Vertices Only” is on for the source, the mask is now taken from the same selected area as the weight. Before, it could come from the nearest unselected area.
+- Improved Mask Color to see more clear.
+
 # 1.0.12
 
-- Fixed an issue where the bone picker only checked the first Armature modifier.
+- Improved performance when applying weights.
 - Fixed skin weights breaking after editing meshes.
-- Fixed performance drops when applying weights.
 
 # 1.0.11
 
