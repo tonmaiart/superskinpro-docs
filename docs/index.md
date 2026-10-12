@@ -6,8 +6,12 @@
 
 ## [👉 Learn how to install / update the add-on](installation.md)
 
-## [👉 Getting started and basic usage](skinning_tab.md)
+## [👉 How to Use Super Skin Pro](skinning_tab.md)
 
 ## [👉 Frequently Asked Questions (FAQ)](faq.md)
 
 ## [👉 What's new and release notes](release_notes.md)
+
+- - -
+
+#### Have questions or need support? [Join our discord server](https://discord.gg/BCEJZBnTfM)
