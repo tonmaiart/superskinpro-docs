@@ -80,7 +80,7 @@ Steps:
 
 Note: You can copy and paste across bone and mask modes.
 
-- -
+- - -
 
 ### Copy Weight
 
