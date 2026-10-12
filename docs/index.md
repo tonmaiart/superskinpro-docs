@@ -1,7 +1,13 @@
-Welcome everyone. This site brings together everything you need to know about Super Skin Pro. What are you looking for?
+<figure markdown>
+![Edit Tools](assets/images/superskinpro_label_bevel.png) 
+</figure>
 
-- [Learn how to install the Add-on](installation.md)
+#### Welcome to Super Skin Pro Documentation. What are you looking for?
 
-- Learn how to use it at [How to use](skinning_tab.md)
+- [Learn how to install or update the add-on](installation.md)
 
-- Have more questions or issues? Head to [FAQ](faq.md)
+- [Getting started and basic usage](skinning_tab.md)
+
+- [Frequently Asked Questions (FAQ)](faq.md)
+
+- [What's new and release notes](release_notes.md)
