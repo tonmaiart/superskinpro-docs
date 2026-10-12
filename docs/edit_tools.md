@@ -78,18 +78,20 @@ Steps:
 1. Select a single vertex, then click Copy Vertex to copy its weight data to the clipboard.
 2. Select the target vertices, then click Paste Vertex to apply the weights.
 
-- - -
+Note: You can copy and paste across bone and mask modes.
 
-### Copy Vertex Group Weight
+- -
+
+### Copy Weight
 
 Copy weights from the active vertex group to the clipboard.
 
 Steps:
 
 1. Copy or Cut: Copy or cut the weights from the current vertex group.
-2. Paste: Select the target bone or layer mask, then paste the weights.
+2. Paste: Select the target bone or layer mask, then paste the weights (choose between Add, Replace, or Subtract).
 
-Note: You can choose the blend mode when pasting: Add, Replace, or Subtract.
+Note: You can copy and paste across bone and mask modes.
 
 - - -
 
