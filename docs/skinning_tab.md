@@ -45,19 +45,16 @@ Displays the active deform bones for the selected layer.
 - **Filter Influenced Bones:** Toggle via the button in the right menu to display only bones with weights.
 
 
-Notes:
+!!! note "Viewport Bone Selection"
+    In Weight Paint Mode, you can [select bones through the viewport](bone_picker.md).
 
-1. In Weight Paint Mode, you can [select bones through the viewport](bone_picker.md).
+!!! note "List Shortcuts"
+    Both the bone and layer lists support the following shortcuts:
 
-2. Both the bone and layer lists support the following shortcuts:
-
-<kbd>Ctrl</kbd> + <kbd>Click</kbd>: Add or remove items individually
-
-<kbd>Shift</kbd> + <kbd>Click</kbd>: Select a range of items
-
-<kbd>Ctrl</kbd> + <kbd>A</kbd> or <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>Click</kbd>: Select all items in the list
-
-<kbd>Ctrl</kbd> + <kbd>I</kbd>: Invert selection
+    - <kbd>Ctrl</kbd> + <kbd>Click</kbd>: Add or remove items individually
+    - <kbd>Shift</kbd> + <kbd>Click</kbd>: Select a range of items
+    - <kbd>Ctrl</kbd> + <kbd>A</kbd> or <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>Click</kbd>: Select all items in the list
+    - <kbd>Ctrl</kbd> + <kbd>I</kbd>: Invert selection
 
 - - -
 

@@ -5,6 +5,10 @@
 3. **Restart Blender** after installing or updating the add-on.
 4. Once installed, SuperSkinPro will appear in the **N-Panel** sidebar.
 
+!!! note "Always Restart Blender After Updating or Reinstalling"
+    If you update or reinstall the add-on, you must always restart Blender afterward to ensure the add-on works properly.
+
+
 ---
 
 # How to Update

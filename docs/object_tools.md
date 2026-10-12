@@ -6,10 +6,11 @@
 
 - - -
 
-### Weight Transfer
+# Weight Transfer
 
+Transferring weights from a source mesh to a target mesh is shown in this [Transfer tutorial video](https://youtu.be/RM6qYHHTqpI?t=544).
 
-Weight Transfer can be applied in many ways, such as:
+It can be used in many ways, such as:
 
 ### 1) Transfer weights from the body to clothing and accessories
 
@@ -37,11 +38,13 @@ Weight Transfer can be applied in many ways, such as:
 
 ---
 
-**Note:**
+**Other Transfer Options:**
 
 - You can restrict the transfer to specific source or target areas by enabling the **Use Selected Vertices** toggle (the selection must exist in Edit Mode).
-- You can choose a weight transfer method, such as **Closest Distance** or **Vertex ID**.
 - Enable the **Keep Old Layer Data** checkbox to preserve existing layers on the mesh.
+
+!!! note "Armature Parenting"
+    Target meshes do not need to be parented to an armature beforehand, as the tool will automatically parent them during the transfer. However, the **source mesh must always be parented to an armature first**.
 
 <br>
 - - -
