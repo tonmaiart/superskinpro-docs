@@ -33,3 +33,22 @@ kbd {
   font-size: 85%;
   padding: 1px 6px;
 }
+
+/* Sidebar logo (top left): adjust margin / size here */
+.wy-side-nav-search > a img.logo {
+  margin: 0 auto 0.2em;  /* top | left-right | bottom */
+  max-width: 100%;
+}
+
+/* Logo link: theme adds margin-bottom .809em and inline-block line gap
+   below it -- remove so the logo sits right above the search bar */
+.wy-side-nav-search > a {
+  display: block;
+  margin-bottom: 0.4em;  /* gap between logo and search bar */
+  padding: 0;
+}
+
+/* Blue box around the logo + search (theme default padding: .809em) */
+.wy-side-nav-search {
+  padding: 0.2em 0.809em 0.4em;  /* top | left-right | bottom */
+}

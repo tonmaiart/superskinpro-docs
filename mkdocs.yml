@@ -2,6 +2,7 @@ site_name: Super Skin Pro Documentation
 site_url: https://tonmaiart.github.io/superskinpro-docs/
 theme:
   name: readthedocs
+  logo: assets/images/superskinpro_label_bevel.png
 
 plugins:
   - search
