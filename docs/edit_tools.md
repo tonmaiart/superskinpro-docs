@@ -71,10 +71,25 @@ Transfers weight from a Vertex within the same Mesh, as follows:
 
 ### Copy Vertex Weight
 
-Clipboard a Bone Weight or Mask Weight value, as follows:
+Copy the weight values of a selected vertex to the clipboard.
 
-1. Select a single Vertex, press **Copy Vertex...**, then press **Copy Vertex** in the popup
-2. Select any number of destination Vertices, press **Copy Vertex...** again, then press **Paste Vertex** in the popup
+Steps:
+
+1. Select a single vertex, then click Copy Vertex to copy its weight data to the clipboard.
+2. Select the target vertices, then click Paste Vertex to apply the weights.
+
+- - -
+
+### Copy Vertex Group Weight
+
+Copy weights from the active vertex group to the clipboard.
+
+Steps:
+
+1. Copy or Cut: Copy or cut the weights from the current vertex group.
+2. Paste: Select the target bone or layer mask, then paste the weights.
+
+Note: You can choose the blend mode when pasting: Add, Replace, or Subtract.
 
 - - -
 

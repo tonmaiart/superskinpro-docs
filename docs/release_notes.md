@@ -2,6 +2,7 @@
 
 - Weight Transfer fix: when “Use Selected Vertices Only” is on for the source, the mask is now taken from the same selected area as the weight. Before, it could come from the nearest unselected area.
 - Improved Mask Color to see more clear.
+- Fix deform bone list , weight color display error when amarture have no deform bones
 
 # 1.0.12
 
