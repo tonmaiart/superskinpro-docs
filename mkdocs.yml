@@ -3,6 +3,7 @@ site_url: https://tonmaiart.github.io/superskinpro-docs/
 theme:
   name: readthedocs
   logo: assets/images/superskinpro_label_bevel.png
+  collapse_navigation: false   # keep every nav section expanded
 
 plugins:
   - search
@@ -10,7 +11,12 @@ plugins:
 nav:
 
     - Introduction: index.md
-    - How to use: skinning_tab.md
+    - How to use:
+        - How to use: skinning_tab.md   # first entry = page opened by the "How to use" heading
+        - Bake to Blender Native: bindmesh.md
+        - Bone Picker: bone_picker.md
+        - Object Mode Tools: object_tools.md
+        - Paint Weight Tools: edit_tools.md
     - How to Install: installation.md
     - FAQ : faq.md
     - Release Notes : release_notes.md
@@ -31,3 +37,6 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/readthedocs-dark.css
+
+extra_javascript:
+  - js/nav-tree.js

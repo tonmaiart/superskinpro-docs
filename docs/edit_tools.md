@@ -4,7 +4,11 @@
 ![Edit Tools](assets/images/apply_weights.png) 
 </figure>
 
-### Weight Apply
+<br>
+- - -
+<br>
+
+# Weight Apply
 
 In this video, you'll learn how to apply all weight operations using both brush painting and vertex selection.
 
@@ -17,9 +21,11 @@ In this video, you'll learn how to apply all weight operations using both brush 
   </iframe>
 </div>
 
+<br>
 - - -
+<br>
 
-### Mirror Weight
+# Mirror Weight
 
 In this video, you'll learn how to use mirror weights and their settings.
 
@@ -38,12 +44,15 @@ Mirrors the weight of the Layer selected in the [Layer List](bone_list.md#layer-
 - **Mirror Target Data :** sets whether to mirror only the Layer Mask or the Bone Weight (both by default).
 - **Mapping Keywords :** a list of Wildcard Keywords that identify left and right in the bone Naming Convention.
 
-**Notes :**
+!!! note "Multiple Layers"
+    You can select multiple layers in the Layer List to apply mirror weights across all of them.
 
-1. You can select multiple layers in the Layer List to apply mirror weights across all of them.
-2. If you have selected vertices while mirroring, the mirror will only apply to the selected vertices.
+!!! note "Selected Vertices"
+    If you have selected vertices while mirroring, the mirror will only apply to the selected vertices.
 
+<br>
 - - -
+<br>
 
 ### Block Weight
 
@@ -56,9 +65,15 @@ Automatically calculates weights from the selected bones as follows:
 1. Select the bones you want to auto-assign.
 2. Click the Block Weight button.
 
-**Note :** Block Weight pulls weight from Bones that are not Locked, so check your Bone Locks carefully for a correct Block Weight result.
+!!! note "Bone Locks"
+    Block Weight pulls weight from Bones that are not Locked, so check your Bone Locks carefully for a correct Block Weight result.
 
+!!! note "Face Rings"
+    When this option is checked, Block Weight follows the mesh's edge loops more closely. Watch the [Face Rings example](https://youtu.be/D3-zaYN3omA?t=135).
+
+<br>
 - - -
+<br>
 
 ### Self Transfer
 
@@ -67,7 +82,9 @@ Transfers weight from a Vertex within the same Mesh, as follows:
 1. Select the Vertex to use as the Source, press **Self Transfer...**, then press **Mark Source** in the popup
 2. Select the target Vertex (Target), press **Self Transfer...** again, then press **Transfer** in the popup
 
+<br>
 - - -
+<br>
 
 ### Copy Vertex Weight
 
@@ -78,9 +95,12 @@ Steps:
 1. Select a single vertex, then click Copy Vertex to copy its weight data to the clipboard.
 2. Select the target vertices, then click Paste Vertex to apply the weights.
 
-Note: You can copy and paste across bone and mask modes.
+!!! note
+    You can copy and paste across bone and mask modes.
 
+<br>
 - - -
+<br>
 
 ### Copy Weight
 
@@ -91,9 +111,12 @@ Steps:
 1. Copy or Cut: Copy or cut the weights from the current vertex group.
 2. Paste: Select the target bone or layer mask, then paste the weights (choose between Add, Replace, or Subtract).
 
-Note: You can copy and paste across bone and mask modes.
+!!! note
+    You can copy and paste across bone and mask modes.
 
+<br>
 - - -
+<br>
 
 ### Hammer Weight
 
@@ -103,10 +126,13 @@ Click the Hammer button to hammer selected vertices to average their weights.
 ![Edit Tools](assets/images/hammer_weight.gif) 
 </figure>
 
+<br>
 - - -
+<br>
 
 ### Multi-Color Preview
 
 Press <kbd>Alt</kbd> + <kbd>3</kbd> to toggle Multi-Color Preview.
 
-Note: Multi-Color mode may impact performance.
+!!! note
+    Multi-Color mode may impact performance.
