@@ -1,6 +1,6 @@
 // Sidebar tree for nav sections (e.g. "How to use"):
-// - the section name opens the section's page (the first page listed under it
-//   in mkdocs.yml), and that page's own entry is hidden
+// - the section name opens the section's first page (as listed in
+//   mkdocs.yml)
 // - the +/- button folds / unfolds the section; folded sections are remembered
 //   per browser
 (function () {
@@ -14,8 +14,7 @@
     try { localStorage.setItem(KEY, JSON.stringify(list)); } catch (e) { /* ignore */ }
   }
 
-  // The theme resets `.current` classes after this runs (so the caption uses
-  // `.nav-current`), but it renders the
+  // The theme sets `.current` only after this runs, but it renders the
   // current page's link as href="#"
   function isCurrent(a) {
     return a.getAttribute("href") === "#" || a.classList.contains("current");
@@ -39,8 +38,6 @@
         link.textContent = label.textContent;
         label.textContent = "";
         label.appendChild(link);
-        firstItem.classList.add("nav-section-index");
-        if (isCurrent(firstLink)) cap.classList.add("nav-current");
       }
 
       // +/- fold button
@@ -51,8 +48,7 @@
       cap.insertBefore(btn, cap.firstChild);
 
       // Never fold away the section holding the page you're on
-      var hasCurrent = cap.classList.contains("nav-current") ||
-        Array.prototype.some.call(list.querySelectorAll("li.toctree-l1 > a"), isCurrent);
+      var hasCurrent = Array.prototype.some.call(list.querySelectorAll("li.toctree-l1 > a"), isCurrent);
       if (collapsed.indexOf(name) !== -1 && !hasCurrent) cap.classList.add("collapsed");
       btn.setAttribute("aria-expanded", String(!cap.classList.contains("collapsed")));
 

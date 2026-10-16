@@ -128,6 +128,9 @@ kbd {
    the +/- button folds it (see js/nav-tree.js) */
 .wy-nav-side .wy-menu-vertical p.caption {
   position: relative;
+  margin: 0;                           /* theme adds a 12px gap above */
+  height: auto;                        /* theme: 32px, taller than a page row */
+  line-height: 18px;
   padding: 0;                          /* the link below fills the whole bar */
   color: #e6e6e6;
   font-size: 90%;
@@ -142,7 +145,7 @@ kbd {
 }
 
 .wy-nav-side .wy-menu-vertical p.caption a {
-  padding: 0 1.618em;
+  padding: 0.4045em 1.618em;           /* same as a page row */
   line-height: inherit;
   font-size: inherit;
   color: inherit;
@@ -162,36 +165,16 @@ kbd {
   height: 100%;
   padding: 0;
   border: none;
-  background: none;
-  color: inherit;
-  font: inherit;
-  font-weight: bold;
-  text-align: left;
   cursor: pointer;
+  /* open: reduce icon, folded: add icon */
+  background: url("../assets/images/reduce.png") no-repeat left center / 10px 10px;
 }
 
-.wy-nav-side .wy-menu-vertical p.caption .nav-fold::before {
-  content: "\2212";                    /* − */
-}
-
-.wy-nav-side .wy-menu-vertical p.caption.collapsed .nav-fold::before {
-  content: "+";
+.wy-nav-side .wy-menu-vertical p.caption.collapsed .nav-fold {
+  background-image: url("../assets/images/add.png");
 }
 
 .wy-nav-side .wy-menu-vertical p.caption.collapsed + ul {
-  display: none;
-}
-
-/* On the section's own page: same look as the current page below */
-.wy-nav-side .wy-menu-vertical p.caption.nav-current {
-  color: #fff;
-  font-weight: bold;
-  background: rgba(255, 255, 255, 0.08);
-  box-shadow: inset 3px 0 0 #4dabf7;
-}
-
-/* The section page's own nav entry is replaced by the caption link */
-.wy-nav-side .wy-menu-vertical li.nav-section-index {
   display: none;
 }
 
@@ -216,50 +199,27 @@ kbd {
   padding-left: 2.818em;
 }
 
-/* Page headings (second level): indented further, blue */
-.wy-nav-side .wy-menu-vertical li.toctree-l2 > a {
-  color: #6cb6ff;
-  padding: 0.3em 1.618em 0.3em 2.818em;
-}
-
-.wy-nav-side .wy-menu-vertical p.caption + ul li.toctree-l2 > a {
-  padding-left: 4em;
-}
-
 .wy-nav-side .wy-menu-vertical a:hover {
   background: rgba(255, 255, 255, 0.08);
   color: #fff;
 }
 
-/* Page you're on */
+/* Page you're on. The theme renders its link as href="#", and moves
+   `.current` off it when the URL points at a heading (e.g. faq/#...) */
 .wy-nav-side .wy-menu-vertical a.current,
 .wy-nav-side .wy-menu-vertical li.current > a.current,
-.wy-nav-side .wy-menu-vertical p.caption + ul > li.toctree-l1 > a.current {
+.wy-nav-side .wy-menu-vertical li.toctree-l1 > a[href="#"],
+.wy-nav-side .wy-menu-vertical p.caption + ul > li.toctree-l1 > a.current,
+.wy-nav-side .wy-menu-vertical p.caption + ul > li.toctree-l1 > a[href="#"] {
   color: #fff;
   font-weight: bold;
   background: rgba(255, 255, 255, 0.08);
   box-shadow: inset 3px 0 0 #4dabf7;   /* blue bar on the left */
 }
 
-/* + / − in front of pages that have sub-items */
-.wy-nav-side .wy-menu-vertical li button.toctree-expand,
-.wy-nav-side .wy-menu-vertical li.current > a button.toctree-expand {
-  width: 1.2em;
-  color: #e6e6e6;
-  font-weight: bold;
-}
-
-.wy-nav-side .wy-menu-vertical li button.toctree-expand::before {
-  content: "+";
-  font-family: inherit;
-  font-weight: bold;
-}
-
-.wy-nav-side .wy-menu-vertical li.current > a button.toctree-expand::before {
-  content: "\2212";                    /* − */
-}
-
-/* ...and no sign on pages without sub-items */
-.wy-nav-side .wy-menu-vertical li:not(:has(> ul > li)) > a button.toctree-expand {
-  visibility: hidden;
+/* Sidebar lists pages only: hide each page's own headings (the theme's
+   in-page table of contents, e.g. FAQ's ## sections) and their +/- */
+.wy-nav-side .wy-menu-vertical li.toctree-l1 > ul,
+.wy-nav-side .wy-menu-vertical li.toctree-l1 > a button.toctree-expand {
+  display: none;
 }

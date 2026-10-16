@@ -12,11 +12,12 @@ nav:
 
     - Introduction: index.md
     - How to use:
-        - How to use: skinning_tab.md   # first entry = page opened by the "How to use" heading
-        - Bake to Blender Native: bindmesh.md
+        - Quick Start: skinning_tab.md   # first entry = page opened by the "How to use" heading
         - Bone Picker: bone_picker.md
         - Object Mode Tools: object_tools.md
         - Paint Weight Tools: edit_tools.md
+        - Bake to Blender Native: bindmesh.md
+
     - How to Install: installation.md
     - FAQ : faq.md
     - Release Notes : release_notes.md
