@@ -35,5 +35,10 @@ While in Bone Picker mode, you have these additional shortcuts:
 
 ---
 
-### Bone Size Adjusting
-You can adjust the bone display size via Setting > Bone Overlay Size.
+### Bone Size / Always Show Bone HUD
+
+<figure markdown>
+![Deform Bone List](assets/images/bone_size_hud.png)
+</figure>
+
+You can now adjust the Bone Size and toggle Always Show Bone HUD via the More button beside the Deform Bone List.

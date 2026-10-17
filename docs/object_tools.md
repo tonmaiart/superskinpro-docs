@@ -41,7 +41,11 @@ It can be used in many ways, such as:
 **Other Transfer Options:**
 
 - You can restrict the transfer to specific source or target areas by enabling the **Use Selected Vertices** toggle (the selection must exist in Edit Mode).
-- Enable the **Keep Old Layer Data** checkbox to preserve existing layers on the mesh.
+
+- If the target already has a layer system, the output will be added as a new layer named "Transfer Output".
+
+- Enabling the **Force Target to Init Layer** checkbox forces layer data initialization for all target meshes if they are still using native vertex groups.
+
 
 !!! note "Armature Parenting"
     Target meshes do not need to be parented to an armature beforehand, as the tool will automatically parent them during the transfer. However, the **source mesh must always be parented to an armature first**.

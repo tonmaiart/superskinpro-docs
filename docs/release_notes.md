@@ -1,3 +1,41 @@
+# 1.1.0 ( Minor Update )
+
+### Mirror Weight Settings Update
+
+![Edit Tools](assets/images/1_1_hud_mirror.png) 
+
+
+* Since Blender mostly mirrors in the X-axis anyway, we made the mirror weight options simpler.
+* Added a target side HUD preview: the blue plane area shows the target side for mirroring.
+* The "Use Custom Keywords" option is now an optional setting, intended only for users who use keywords that differ greatly from the standard ones. General users no longer need to configure this.
+
+### Bone Hud Update
+
+![Edit Tools](assets/images/1_1_hud_bone.png) 
+
+* Improved the Bone HUD display to make it clearer to see.
+* Added an option for "Always show bone display" to keep the Bone HUD visible all the time, located in the More Button next to the Deform Bone List (enabled by default).
+* Moved the option for [adjusting Bone Size](bone_picker.md) into the More Button of the Deform Bone List as well.
+
+#### Selection Update
+
+
+![Edit Tools](assets/images/1_1_selection.png) 
+
+* Added options to select unaffected vertices / deselect unaffected vertices for greater flexibility in use.
+
+#### Others Bug fix and improve
+
+* We improved the Transfer Weight options and behavior to make them easier to understand. You can read more in [Weight Transfer](object_tools.md)
+* The Transfer Weight list and Active Mesh list now support selecting multiple items at once.
+* Improved the system so it can smooth between existing bone weights and empty weight areas.
+* Now supports Apple M-Series.
+* Improved the popup width to auto-size according to the item names automatically.
+* Improved icons to clearly distinguish between meshes using layer-based skin weights and native weights.
+
+
+
+
 # 1.0.13
 
 - Weight Transfer fix: when “Use Selected Vertices Only” is on for the source, the mask is now taken from the same selected area as the weight. Before, it could come from the nearest unselected area.
