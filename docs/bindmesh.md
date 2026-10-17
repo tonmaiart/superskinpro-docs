@@ -7,14 +7,14 @@
 
 Click Current Bind Mesh to open a dropdown list showing all bind meshes in the scene.
 
-- ![Initialized](assets/images/icon_mesh_init.png){ width="20" } The model has been initialized with Super Skin Pro.
-
+- ![Initialized](assets/images/icon_mesh_init.png){ width="20" } The model has been initialized layers with Super Skin Pro.
+- ![Missing](assets/images/icon_mesh_missing.png){ width="20" } The model has been initialized layers with Super Skin Pro but is missing the Armature Modifier.
 - ![Uninitialized](assets/images/icon_mesh_uninit.png){ width="20" } The model uses native Blender data.
 
-- ![Missing](assets/images/icon_mesh_missing.png){ width="20" } The model has been initialized with Super Skin Pro but is missing the Armature Modifier.
 
 
-Click Bake Active / Bake All : Bake all layer results back to native Blender.
+
+You can Click Bake Selected / Bake All : Bake all layer results back to native Blender.
 
 
 **Notes:**

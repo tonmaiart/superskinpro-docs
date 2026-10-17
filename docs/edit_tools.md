@@ -4,6 +4,10 @@
 ![Edit Tools](assets/images/apply_weights.png) 
 </figure>
 
+
+
+
+
 <br>
 - - -
 <br>
@@ -27,25 +31,16 @@ In this video, you'll learn how to apply all weight operations using both brush 
 
 # Mirror Weight
 
-In this video, you'll learn how to use mirror weights and their settings.
+<figure markdown>
+![Edit Tools](assets/images/mirror_weight.png) 
+</figure>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 1.5rem;">
-  <iframe 
-    src="https://www.youtube.com/embed/3bBY6CPEP9I" 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    allowfullscreen>
-  </iframe>
-</div>
-
-Mirrors the weight of the Layer selected in the [Layer List](bone_list.md#layer-list), with the following additional settings:
-
-- **Mirror Axis and Mirror Direction :** sets the World Axis used as the reference.
-- **Mirror Target Data :** sets whether to mirror only the Layer Mask or the Bone Weight (both by default).
-- **Mapping Keywords :** a list of Wildcard Keywords that identify left and right in the bone Naming Convention.
+* **Target Side:** Specifies the target side for mirroring (can be identified via the viewport HUD—the blue plane indicates the target side).
+* **Mirror Target Data:** Sets whether to mirror only the Layer Mask or the Bone Weight (both by default).
+* **Use Custom Mapping Keywords (Optional):** Allows you to [add custom left and right side keywords](https://youtu.be/3bBY6CPEP9I?t=62) for rigs with non-standard naming conventions. For most general users, there is no need to configure this setting.
 
 !!! note "Multiple Layers"
-    You can select multiple layers in the Layer List to apply mirror weights across all of them.
+    You can [select multiple layers](https://youtu.be/D3-zaYN3omA?t=402) to apply mirror weights across all of them.
 
 !!! note "Selected Vertices"
     If you have selected vertices while mirroring, the mirror will only apply to the selected vertices.

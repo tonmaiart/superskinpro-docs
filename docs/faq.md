@@ -3,7 +3,7 @@
 ## Learning the Add-on
 
 ??? question "I've never done layer-based weight painting before. What can it do?"
-    Think of it like Photoshop layers, but for skin weights. You can fix parts without breaking your old work, mix weights together, or paint weights from start to finish. Check out our Instagram and YouTube tutorials to see how easy and helpful it is!
+    Think of it like Photoshop layers, but for skin weights. You can fix parts without breaking your old work, mix weights together, or even paint weights from scratch.
 
 ??? question "Where should I start learning the layer-based workflow?"
     We recommend starting with our [YouTube Tutorial Playlist](https://youtube.com/playlist?list=PLe-1umuorC5Q&si=WEoua0jYNtCVhhgz).
