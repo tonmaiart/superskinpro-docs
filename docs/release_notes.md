@@ -14,6 +14,11 @@
 ![Edit Tools](assets/images/1_1_hud_bone.png) 
 
 * Improved the Bone HUD display to make it clearer to see.
+
+
+![Edit Tools](assets/images/1_1_hud_options.png) 
+
+
 * Added an option for "Always show bone display" to keep the Bone HUD visible all the time, located in the More Button next to the Deform Bone List (enabled by default).
 * Moved the option for [adjusting Bone Size](bone_picker.md) into the More Button of the Deform Bone List as well.
 
