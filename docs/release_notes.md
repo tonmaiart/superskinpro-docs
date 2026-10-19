@@ -1,3 +1,15 @@
+# 1.1.2
+
+* Improve toast HUD for Limit Total, Normalize, and Selection tools
+
+* Fix "Weight brush not found" warning when entering Weight Paint mode
+
+* Add documentation link to the add-on manifest and remove the Gumroad link button from the UI
+
+# 1.1.1
+
+* Restore the "Preserve Existing Layers" option in the Import Weight dialog
+
 # 1.1.0 ( Minor Update )
 
 ### Mirror Weight Settings Update
