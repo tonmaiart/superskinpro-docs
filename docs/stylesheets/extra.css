@@ -217,9 +217,35 @@ kbd {
   box-shadow: inset 3px 0 0 #4dabf7;   /* blue bar on the left */
 }
 
-/* Sidebar lists pages only: hide each page's own headings (the theme's
-   in-page table of contents, e.g. FAQ's ## sections) and their +/- */
-.wy-nav-side .wy-menu-vertical li.toctree-l1 > ul,
-.wy-nav-side .wy-menu-vertical li.toctree-l1 > a button.toctree-expand {
-  display: none;
+/* Top-level (#) headings of the page you're on, listed under its sidebar
+   entry like sub pages (see overrides/nav.html) */
+.wy-nav-side .wy-menu-vertical li.toctree-l1 > a button.toctree-expand,
+.wy-nav-side .wy-menu-vertical li.toctree-l2 > a button.toctree-expand {
+  display: none;                       /* no +/- */
+}
+
+.wy-nav-side .wy-menu-vertical li.toctree-l1.current > ul {
+  display: block;
+}
+
+/* `li.current` outranks the theme's gray box on a clicked heading */
+.wy-nav-side .wy-menu-vertical li.toctree-l2 > a,
+.wy-nav-side .wy-menu-vertical li.toctree-l2.current > a {
+  background: transparent;
+  color: #b8c4d0;
+  font-size: 90%;
+  font-weight: normal;
+  padding: 0.3em 1.618em 0.3em 3.2em;
+  border: none;
+  box-shadow: none;
+}
+
+/* Pages inside a section: their headings sit one step further in */
+.wy-nav-side .wy-menu-vertical p.caption + ul li.toctree-l2 > a {
+  padding-left: 4.2em;
+}
+
+.wy-nav-side .wy-menu-vertical li.toctree-l2 > a:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
 }

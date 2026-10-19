@@ -2,6 +2,7 @@ site_name: Super Skin Pro Documentation
 site_url: https://tonmaiart.github.io/superskinpro-docs/
 theme:
   name: readthedocs
+  custom_dir: overrides         # nav.html: list the page's # headings in the sidebar
   logo: assets/images/superskinpro_label_bevel.png
   collapse_navigation: false   # keep every nav section expanded
 

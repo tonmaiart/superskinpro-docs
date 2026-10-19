@@ -1,0 +1,6 @@
+{#- Sidebar lists only the page's top-level (#) headings: no deeper levels,
+    so nothing under them can expand when one is clicked. #}
+{%- for toc_item in toc_item.children %}
+    <li class="toctree-l{{ navlevel }}"><a class="reference internal" href="{% if not nav_item == page %}{{ nav_item.url|url }}{% endif %}{{ toc_item.url }}">{{ toc_item.title }}</a>
+    </li>
+{%- endfor %}
