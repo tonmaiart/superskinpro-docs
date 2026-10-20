@@ -1,3 +1,11 @@
+## 1.1.4
+
+- Fixed: Importing weights no longer opens the file browser a second time after the import completes.
+
+- Import now opens the file browser directly. Import settings (Method, Preserve Existing Layers) are in an Options section of the file browser's side panel.
+
+- Import and Export are only enabled when a mesh is selected in the viewport. Export also requires the mesh to contain layer data.
+
 # 1.1.3
 
 * Add, Scale and Smooth now show a warning in the status bar when weight could not be distributed or pulled from other bones, or when Smooth found nothing to change, with a hint that some bones may be locked
