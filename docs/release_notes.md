@@ -1,3 +1,17 @@
+# 1.1.3
+
+* Add, Scale and Smooth now show a warning in the status bar when weight could not be distributed or pulled from other bones, or when Smooth found nothing to change, with a hint that some bones may be locked
+
+* Edit Weight Mode now shows how many vertices are hidden at the bottom of the viewport until they are revealed
+
+* The Deform Bones list is now locked outside Edit Weight Mode and can only be used while editing weights
+
+* Select Locked and Select Unlocked now show a message when no bone matches
+
+* Fixed Select Locked and Select Unlocked clearing the current bone selection when no bone matched
+
+* Fixed the add-on panel shifting up slightly when switching to Pose Mode
+
 # 1.1.2
 
 * Improve toast HUD for Limit Total, Normalize, and Selection tools
