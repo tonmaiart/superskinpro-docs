@@ -8,9 +8,7 @@
 
 # Weight Transfer
 
-Transferring weights from a source mesh to a target mesh is shown in this [Transfer tutorial video](https://youtu.be/RM6qYHHTqpI?t=544).
-
-It can be used in many ways, such as:
+Weight transfer supports any number of source and target meshes. It can be used in various ways, such as:
 
 ### 1) Transfer weights from the body to clothing and accessories
 
@@ -36,11 +34,20 @@ It can be used in many ways, such as:
 2. Mark the relevant meshes as **Source**.
 3. Click **Transfer Weight**.
 
----
+### 3) And much more as demonstrated in the video
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe 
+    src="https://www.youtube.com/embed/MsszYELKnHA" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
 
+<br>
 **Other Transfer Options:**
 
-- You can restrict the transfer to specific source or target areas by enabling the **Use Selected Vertices** toggle (the selection must exist in Edit Mode).
+- You can restrict the transfer to specific source or target areas by enabling the **Use Selected Vertices Only** toggle (the selection must exist in Edit Mode).
 
 - If the target already has a layer system, the output will be added as a new layer named "Transfer Output".
 
@@ -50,35 +57,31 @@ It can be used in many ways, such as:
 !!! note "Armature Parenting"
     Target meshes do not need to be parented to an armature beforehand, as the tool will automatically parent them during the transfer. However, the **source mesh must always be parented to an armature first**.
 
-<br>
 - - -
-<br> 
 
 # Weight Export
 
-You can export all the Layer Data and Skin Weight from a selected Mesh to a file, for backing up a version or sending to someone else.
+Export all layer data and skin weights from a selected mesh to a file.
 
-**How to use**
+**How to use:**
 
-1. Select the Mesh you want
-2. Click Export Weights
+1. Select the mesh you want to export layer data from.
+2. Click **Export Weights**.
 
-<br>
-- - -
-<br> 
+---
 
 # Weight Import
 
 <figure markdown>
-![Deform Bone List](assets/images/weight_export.png)
+  ![Weight Import](assets/images/weight_import.png)
 </figure>
 
-How to use:
+**How to use:**
 
-1. Select the target model.
+1. Select the target mesh you want to import weights to.
+2. Click **Import Weights**.
 
-2. Click the Import button.
+**Options:**
 
-- You can choose a weight transfer method when importing, such as Closest Distance or Vertex ID.
-
-- Enable the Keep Old Layer Data checkbox to preserve existing layers on the mesh.
+* **Transfer Method:** Choose a weight transfer method during import, such as **Closest Distance** or **Vertex ID**.
+* **Preserve Existing Layers:** Check this option to keep current layers on the mesh. *(This option only appears if the target mesh already has layer data.)*
