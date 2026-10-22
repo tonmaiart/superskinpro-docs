@@ -1,3 +1,7 @@
+# 1.1.6
+
+- Fixed: with Orbit Around Selection turned on, orbiting during weight painting rotated around the character’s origin. It now rotates around the view center.
+
 # 1.1.5
 
 - Fixed: Pressing Numpad . during Weight Paint mode now centers the view on the mesh weighted to the active bone, allowing orbiting directly around that bone.

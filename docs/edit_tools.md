@@ -72,6 +72,10 @@ Automatically calculates weights from the selected bones as follows:
 
 ### Self Transfer
 
+<figure markdown>
+![Deform Bone List](assets/images/self_transfer.gif)
+</figure>
+
 Transfers weight from a Vertex within the same Mesh, as follows:
 
 1. Select the Vertex to use as the Source, press **Self Transfer...**, then press **Mark Source** in the popup
