@@ -76,10 +76,13 @@ Automatically calculates weights from the selected bones as follows:
 ![Deform Bone List](assets/images/self_transfer.gif)
 </figure>
 
-Transfers weight from a Vertex within the same Mesh, as follows:
+Transfers weight from a Vertex within the same Mesh , as follows:
 
 1. Select the Vertex to use as the Source, press **Self Transfer...**, then press **Mark Source** in the popup
 2. Select the target Vertex (Target), press **Self Transfer...** again, then press **Transfer** in the popup
+
+!!! note "Transfer Target"
+    The transfer operation affects both bone and mask data of the active layer.
 
 <br>
 - - -
