@@ -1,4 +1,10 @@
-## 1.1.4
+# 1.1.5
+
+- Fixed: Pressing Numpad . during Weight Paint mode now centers the view on the mesh weighted to the active bone, allowing orbiting directly around that bone.
+
+- Fixed: The Bone HUD skeleton is now rendered beneath the viewport HUD text to keep the text readable.
+
+# 1.1.4
 
 - Fixed: Importing weights no longer opens the file browser a second time after the import completes.
 
