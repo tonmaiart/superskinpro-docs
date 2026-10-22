@@ -49,7 +49,7 @@ In this video, you'll learn how to apply all weight operations using both brush 
 - - -
 <br>
 
-### Block Weight
+# Block Weight
 
 <figure markdown>
 ![Deform Bone List](assets/images/auto_block_weight.gif)
@@ -70,7 +70,7 @@ Automatically calculates weights from the selected bones as follows:
 - - -
 <br>
 
-### Self Transfer
+# Self Transfer
 
 <figure markdown>
 ![Deform Bone List](assets/images/self_transfer.gif)
@@ -88,7 +88,7 @@ Transfers weight from a Vertex within the same Mesh , as follows:
 - - -
 <br>
 
-### Copy Vertex Weight
+# Copy Vertex Weight
 
 Copy the weight values of a selected vertex to the clipboard.
 
@@ -104,7 +104,7 @@ Steps:
 - - -
 <br>
 
-### Copy Weight
+# Copy Weight
 
 Copy weights from the active vertex group to the clipboard.
 
@@ -120,7 +120,7 @@ Steps:
 - - -
 <br>
 
-### Hammer Weight
+# Hammer Weight
 
 Click the Hammer button to hammer selected vertices to average their weights.
 
@@ -132,7 +132,7 @@ Click the Hammer button to hammer selected vertices to average their weights.
 - - -
 <br>
 
-### Multi-Color Preview
+# Multi-Color Preview
 
 Press <kbd>Alt</kbd> + <kbd>3</kbd> to toggle Multi-Color Preview.
 
