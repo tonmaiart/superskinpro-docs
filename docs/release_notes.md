@@ -5,7 +5,7 @@
 - Fixed: The Bake popup is shorter and narrower, with a Bake button instead of OK.
 
 <figure markdown>
-  ![Edit Tools](assets/images/1_1_7_orbit_fix.gif)
+  ![Orbit fix](assets/images/1_1_7_orbit_fix.gif)
   <figcaption>Improved viewport orbiting around selection in v1.1.7</figcaption>
 </figure>
 
