@@ -4,6 +4,12 @@
 
 - Fixed: The Bake popup is shorter and narrower, with a Bake button instead of OK.
 
+<figure markdown>
+  ![Edit Tools](assets/images/1_1_7_orbit_fix.gif)
+  <figcaption>Improved viewport orbiting around selection in v1.1.7</figcaption>
+</figure>
+
+
 # 1.1.6
 
 - Fixed: with Orbit Around Selection turned on, orbiting during weight painting rotated around the character’s origin. It now rotates around the view center.
