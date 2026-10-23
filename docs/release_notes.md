@@ -1,3 +1,9 @@
+# 1.1.7
+
+- Fixed: While weight painting, orbiting now rotates around the bone you last selected or the spot you last painted.
+
+- Fixed: The Bake popup is shorter and narrower, with a Bake button instead of OK.
+
 # 1.1.6
 
 - Fixed: with Orbit Around Selection turned on, orbiting during weight painting rotated around the character’s origin. It now rotates around the view center.
