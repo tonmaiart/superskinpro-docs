@@ -93,7 +93,7 @@ You can now check the "Connected Only" option. This limits your weight painting 
 
 <figure markdown>
   ![Orbit fix](assets/images/1_2_subtle_value_steps.gif)
-  <figcaption>When increasing weight steps using add weight, values go up smoothly. This makes weights easy to control, prevents values from blowing up, and fits the style of each weight operation.</figcaption>
+  <figcaption>Use weight step buttons to smoothly increase or decrease weight values. This makes weights easier to control and perfectly fits the feel of each weight operation.</figcaption>
 </figure>
 
 #### - Refine Slider Pop-up UI

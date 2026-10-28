@@ -39,6 +39,7 @@ While in Bone Picker mode, you have these additional shortcuts:
 
 <figure markdown>
 ![Deform Bone List](assets/images/bone_size_hud.png)
+    <figcaption><b>You can now adjust the Bone Size, change the bone color, and toggle Always Show Bone HUD via the More button beside the Deform Bone List.</b></figcaption>
+
 </figure>
 
-You can now adjust the Bone Size and toggle Always Show Bone HUD via the More button beside the Deform Bone List.
