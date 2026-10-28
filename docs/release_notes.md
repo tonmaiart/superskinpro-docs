@@ -1,3 +1,155 @@
+# 1.2.0 ( Minor Update )
+
+## Brush Paint Update
+
+#### - Falloff Preset
+<figure markdown>
+  ![Faloff Preset](assets/images/falloff.png)
+  <figcaption>You can now change the falloff type for surface brush and projected brush. There are 3 presets: constant, smooth, and linear.</figcaption>
+</figure>
+
+!!! note "Removed Options"
+    - Old falloff pressure and falloff sliders have been removed.
+    - Removed size pressure since strength pressure is usually enough for weight painting.
+
+#### - Connected Only Option for Brush
+You can now check the "Connected Only" option. This limits your weight painting to only affect the connected surface parts.
+
+<figure markdown>
+  ![Orbit fix](assets/images/1_2_projected_enable_connected_only.gif)
+</figure>
+
+<figure markdown>
+  ![Orbit fix](assets/images/1_2_surface_enable_connected.gif)
+</figure>
+
+#### - Support Off-Mesh Painting when using Surface Brush
+
+<figure markdown>
+  ![Orbit fix](assets/images/1_2_silhouette_paint.gif)
+  <figcaption>Surface brush can now be used even when the brush cursor is outside the mesh. This helps you fine-tune silhouettes much easier.</figcaption>
+</figure>
+
+#### - Brush HUD Color Customization
+
+<figure markdown>
+  ![Orbit fix](assets/images/1_2_BrushHUD.png)
+  <figcaption>Now you can change cursor colors in the cursor dropdown menu.</figcaption>
+</figure>
+
+## Enhanced Sharpen Weight
+
+<figure markdown>
+  ![Orbit fix](assets/images/1_2_sharpen.gif)
+  <figcaption>The new sharpen weight has been heavily improved.</figcaption>
+</figure>
+
+## New Behavior: Keep Volume
+
+#### - Easily Paint Weight Clothes!
+
+<figure markdown>
+  ![Orbit fix](assets/images/1_2_volume2.gif)
+  <figcaption>When Keep Volume is on, it automatically keeps mesh distance and connects separated seams nicely.</figcaption>
+</figure>
+
+#### - Not Connected Surface? No More Problem!
+
+<figure markdown>
+  ![Orbit fix](assets/images/1_2_volume3.gif)
+  <figcaption>Keep volume works in all modes—whether you are using brush paint, vertex selection, or clicking flood weight from the N-panel.</figcaption>
+</figure>
+
+#### - Keep Separate Surface Selection as One
+
+<figure markdown>
+  ![Orbit fix](assets/images/1_2_volume4.gif)
+  <figcaption>When keep volume is enabled, you can select vertices across connected seams as if they were a single mesh.</figcaption>
+</figure>
+
+## UX&UI Improvement
+
+#### - Update Behavior Across Vertex Selection and Brush Mode
+
+<figure markdown>
+  ![Orbit fix](assets/images/1_2_vertex_tool.gif)
+  <figcaption>hammer weight, self transfer, and copy vertex weight will now only show up in vertex mode.</figcaption>
+</figure>
+
+<figure markdown>
+  ![Orbit fix](assets/images/1_2_mask_brush.gif)
+  <figcaption>If you have a vertex selection and switch to brush mode, it will automatically isolate the selected area.</figcaption>
+</figure>
+
+!!! note
+    To keep things clean, we removed add vertex selection, remove selection, and hide/unhide mesh features from brush mode. Those tasks now belong fully to vertex mode.
+
+#### - Weight Steps
+
+<figure markdown>
+  ![Orbit fix](assets/images/1_2_panel_slider.png)
+  <figcaption>Added step buttons for sliders in the N-panel.</figcaption>
+</figure>
+
+<figure markdown>
+  ![Orbit fix](assets/images/1_2_subtle_value_steps.gif)
+  <figcaption>When increasing weight steps using add weight, values go up smoothly. This makes weights easy to control, prevents values from blowing up, and fits the style of each weight operation.</figcaption>
+</figure>
+
+#### - Refine Slider Pop-up UI
+
+<figure markdown>
+  ![Orbit fix](assets/images/1_2_popup_brush.png)
+  <figcaption>Brush Mode - Right Click Popup Weight Slider</figcaption>
+</figure>
+
+<figure markdown>
+  ![Orbit fix](assets/images/1_2_popup_vertex.png)
+  <figcaption>Vertex Mode - Right Click Popup Weight Slider</figcaption>
+</figure>
+
+#### - Select Multiple Bones Faster with Lasso
+
+<figure markdown>
+  ![Orbit fix](assets/images/1_2_lasso_bone_picker.gif)
+  <figcaption>Click and drag around the bones to automatically use lasso selection.</figcaption>
+</figure>
+
+#### - Add Bone HUD Color Customization
+
+<figure markdown>
+  ![Orbit fix](assets/images/1_2_bone_hud_color.png)
+  <figcaption>You now can set the color of bones directly in the viewport.</figcaption>
+</figure>
+
+#### - Add Mirror to All Layers Option
+
+<figure markdown>
+  ![Orbit fix](assets/images/1_2_mirror_all_layers.png)
+  <figcaption>Added a "mirror to all layers" option. Since most characters are symmetrical, turning this on ensures you never forget to mirror other layers and saves time from having to select every layer manually.</figcaption>
+</figure>
+
+#### - Add Show Shortcut Hint Option
+
+<figure markdown>
+  ![Orbit fix](assets/images/1_2_show_shortcut_hint.png)
+  <figcaption>You can now toggle shortcut hints on and off through the add-on settings button.</figcaption>
+</figure>
+
+## Other Improvements
+
+- Improved smooth weight to work much better on dense topology meshes without needing overly high smooth settings.
+- Improved the block weight algorithm for the face ring option.
+- Improved the UI so self-transfer is easier to use without needing to toggle out to set a new source.
+- Improved camera rotation to be more easier to control.
+- Improved mirror weight performance.
+- Removed smooth and repeat options from block weight since they duplicated the regular smooth buttons in the N-panel.
+- Fixed a bug where block weight popups could not edit past values if a bone was selected after using block weight.
+- Fixed the right-click popup in brush and vertex modes where settings would close immediately after changing them.
+- Fixed shortcut bugs where add-on shortcuts leaked into native Blender weight paint mode.
+- Fixed vertex weight operation gestures to be more compatible with pen tablets.
+- Prevented native brush settings popups from showing up when pressing Alt+F, Shift+F, or Ctrl+F.
+
 # 1.1.7
 
 - Fixed: While weight painting, orbiting now rotates around the bone you last selected or the spot you last painted.

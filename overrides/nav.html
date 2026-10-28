@@ -14,8 +14,15 @@
             {%- endfor %}
         {%- elif nav_item.is_page %}
             {#- List the page's top-level (#) headings, skipping the first one
-                (the page title); toc.html leaves out deeper headings. #}
-            {%- set toc_item = {'children': nav_item.toc.items[1:]} %}
+                only when it repeats the page title (e.g. "# Quick Start");
+                toc.html leaves out deeper headings. #}
+            {#- Pages without a # heading put their highest heading (## ...)
+                at the top of the toc, so keep only real level-1 headings. #}
+            {%- set toc_items = nav_item.toc.items|selectattr('level', 'equalto', 1)|list %}
+            {%- if toc_items and toc_items[0].title|striptags|trim == nav_item.title|trim %}
+                {%- set toc_items = toc_items[1:] %}
+            {%- endif %}
+            {%- set toc_item = {'children': toc_items} %}
             {%- include 'toc.html' %}
         {%- endif %}
     </ul>
