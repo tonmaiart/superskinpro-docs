@@ -53,7 +53,7 @@ You can now check the "Connected Only" option. This limits your weight painting 
   <figcaption>When Keep Volume is on, it automatically keeps mesh distance and connects separated seams nicely.</figcaption>
 </figure>
 
-#### - Not Connected Surface? No More Problem!
+#### - Supports both Brush and Vertex modes
 
 <figure markdown>
   ![Orbit fix](assets/images/1_2_volume3.gif)
