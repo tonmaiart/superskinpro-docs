@@ -119,7 +119,7 @@ You can now check the "Connected Only" option. This limits your weight painting 
 
 <figure markdown>
   ![Orbit fix](assets/images/1_2_bone_hud_color.png)
-  <figcaption>You now can set the color of bones directly in the viewport.</figcaption>
+  <figcaption>You now can set the color of bones HUD.</figcaption>
 </figure>
 
 #### - Add Mirror to All Layers Option
