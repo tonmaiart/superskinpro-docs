@@ -1,3 +1,10 @@
+# 1.2.1
+
+* **Added:** "Sync with Edit Mode Selection" in Vertex Mode header to share selection and hidden vertices with Edit Mode.
+* **Improved:** Deform bone selection sync across Pose Mode and Weight Paint.
+* **Improved:** Independent Strength Pressure for Surface (On by default) and Projected brushes (Off by default).
+* **Fixed:** Resolved shortcut conflicts with native Blender tools—now restricted to Brush and Vertex modes.
+
 # 1.2.0 ( Minor Update )
 
 ## Brush Paint Update
