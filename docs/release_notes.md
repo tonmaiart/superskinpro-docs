@@ -1,16 +1,10 @@
 # 1.2.2
 
-* **Improved:** Keep Volume behavior by resolving depth conflicts so the innermost layer always leads and layers never swap roles.
-
+* **Improved:** Keep Volume behavior by resolving depth conflicts so the innermost layer always leads and layers never swap roles, preventing the ping-pong effect.
 
 * **Changed:** Removed "Affect Keep Volume"—brushes and selections now strictly affect vertices within their bounds.
 
-
-* **Improved:** "Connected Only" option now maintains Keep Volume independently per piece.
-
-
 * **Improved:** "Mirror All Layers" and "Always Show Bone HUD" settings now save app-wide.
-
 
 * **Improved:** "Front Face Only (Lasso)", "Sync with Edit Mode Selection", "Move Weight by Name", and "Limit Total's Max Influences" settings now save per scene in the `.blend` file.
 
