@@ -1,18 +1,20 @@
 # 1.2.2
 
-* **Improved:** Keep Volume behavior by resolving depth conflicts so the innermost layer always leads and layers never swap roles, preventing the ping-pong effect.
+### Surface Brush
 
-* **Changed:** Removed "Affect Keep Volume"—brushes and selections now strictly affect vertices within their bounds.
+* **Improved:** Surface Brush: Automatically isolates front and back surfaces to prevent weight bleeding while brushing.
 
+### Keep Volume
 
+* **Improved:** Resolved depth conflicts so the innermost layer always leads and layers never swap roles, preventing the ping-pong effect.
 * **Improved:** "Connected Only" option now maintains Keep Volume independently per piece.
+* **Changed:** Brushes and selections now strictly affect vertices within their bounds.
+* **Fixed:** Sharpen Weight brush no longer breaks seam welds when Keep Volume is enabled.
 
+### Others
 
-* **Improved:** "Mirror All Layers" and "Always Show Bone HUD" settings now save app-wide.
-
-
+* **Improved:** "Mirror All Layers" and "Always Show Bone HUD" settings now save app-wide (Preferences).
 * **Improved:** "Front Face Only (Lasso)", "Sync with Edit Mode Selection", "Move Weight by Name", and "Limit Total's Max Influences" settings now save per scene in the `.blend` file.
-
 
 # 1.2.1
 
