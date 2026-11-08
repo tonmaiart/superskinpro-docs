@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://docs.superskinpro.com/release_notes/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Release Notes - Super Skin Pro Documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../stylesheets/extra.css" rel="stylesheet" />
+        <link href="../stylesheets/readthedocs-dark.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Release Notes";
+        var mkdocs_page_input_path = "release_notes.md";
+        var mkdocs_page_url = "/release_notes/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="..">
+          <img src="../assets/images/superskinpro_label_bevel.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Introduction</a>
+    <ul>
+    </ul>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">How to use</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../skinning_tab/">Quick Start</a>
+    <ul>
+    <li class="toctree-l2"><a class="reference internal" href="../skinning_tab/#interface-overview">Interface Overview</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../bone_picker/">Bone Picker</a>
+    <ul>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../object_tools/">Object Mode Tools</a>
+    <ul>
+    <li class="toctree-l2"><a class="reference internal" href="../object_tools/#weight-transfer">Weight Transfer</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../object_tools/#weight-export">Weight Export</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../object_tools/#weight-import">Weight Import</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../edit_tools/">Paint Weight Tools</a>
+    <ul>
+    <li class="toctree-l2"><a class="reference internal" href="../edit_tools/#quick-start">Quick Start</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../edit_tools/#general-tools">General Tools</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../edit_tools/#brush-mode-tools">Brush Mode Tools</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../edit_tools/#vertex-mode-tools">Vertex Mode Tools</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../bindmesh/">Bake to Blender Native</a>
+    <ul>
+    <li class="toctree-l2"><a class="reference internal" href="../bindmesh/#bake-layer-data-to-blender-native">Bake Layer Data to Blender Native</a>
+    </li>
+    </ul>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../installation/">How to Install</a>
+    <ul>
+    <li class="toctree-l2"><a class="reference internal" href="../installation/#drag-and-drop-installation">Drag-and-Drop Installation</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../installation/#how-to-update">How to Update</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../faq/">FAQ</a>
+    <ul>
+    <li class="toctree-l2"><a class="reference internal" href="../faq/#faq-frequently-asked-questions">FAQ (Frequently Asked Questions)</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Release Notes</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#123">1.2.3</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#122">1.2.2</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#121">1.2.1</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#120-minor-update">1.2.0 ( Minor Update )</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#117">1.1.7</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#116">1.1.6</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#115">1.1.5</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#114">1.1.4</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#113">1.1.3</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#112">1.1.2</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#111">1.1.1</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#110-minor-update">1.1.0 ( Minor Update )</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#1013">1.0.13</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#1012">1.0.12</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#1011">1.0.11</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#1010">1.0.10</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#109">1.0.9</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#108">1.0.8</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#107">1.0.7</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#106">1.0.6</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#105">1.0.5</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Super Skin Pro Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Release Notes</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 class="release-anchor" id="123">1.2.3<a class="headerlink" href="#123" title="Permanent link">&para;</a></h1>
+<details class="note">
+<summary>1.2.3</summary>
+<ul>
+<li><strong>Fixed:</strong> "Smooth Affected Only" had no effect on a full selection and could spread weight further on a partial one. Smooth now keeps empty vertices empty and adds no new bones to a vertex.</li>
+</ul>
+</details>
+<h1 class="release-anchor" id="122">1.2.2<a class="headerlink" href="#122" title="Permanent link">&para;</a></h1>
+<details class="note">
+<summary>1.2.2</summary>
+<h3 id="surface-brush">Surface Brush<a class="headerlink" href="#surface-brush" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Improved:</strong> Surface Brush: Automatically isolates front and back surfaces to prevent weight bleeding while brushing.</li>
+</ul>
+<h3 id="keep-volume">Keep Volume<a class="headerlink" href="#keep-volume" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Improved:</strong> Resolved depth conflicts so the innermost layer always leads and layers never swap roles, preventing the ping-pong effect.</li>
+<li><strong>Improved:</strong> "Connected Only" option now maintains Keep Volume independently per piece.</li>
+<li><strong>Changed:</strong> Brushes and selections now strictly affect vertices within their bounds.</li>
+<li><strong>Fixed:</strong> Sharpen Weight brush no longer breaks seam welds when Keep Volume is enabled.</li>
+</ul>
+<h3 id="others">Others<a class="headerlink" href="#others" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Improved:</strong> "Mirror All Layers" and "Always Show Bone HUD" settings now save app-wide (Preferences).</li>
+<li><strong>Improved:</strong> "Front Face Only (Lasso)", "Sync with Edit Mode Selection", "Move Weight by Name", and "Limit Total's Max Influences" settings now save per scene in the <code>.blend</code> file.</li>
+</ul>
+</details>
+<h1 class="release-anchor" id="121">1.2.1<a class="headerlink" href="#121" title="Permanent link">&para;</a></h1>
+<details class="note">
+<summary>1.2.1</summary>
+<ul>
+<li><strong>Added:</strong> "Sync with Edit Mode Selection" in Vertex Mode header to share selection and hidden vertices with Edit Mode.</li>
+<li><strong>Improved:</strong> Deform bone selection sync across Pose Mode and Weight Paint.</li>
+<li><strong>Improved:</strong> Independent Strength Pressure for Surface (On by default) and Projected brushes (Off by default).</li>
+<li><strong>Fixed:</strong> Resolved shortcut conflicts with native Blender tools—now restricted to Brush and Vertex modes.</li>
+</ul>
+</details>
+<h1 class="release-anchor" id="120-minor-update">1.2.0 ( Minor Update )<a class="headerlink" href="#120-minor-update" title="Permanent link">&para;</a></h1>
+<details class="note" open="open">
+<summary>1.2.0 ( Minor Update )</summary>
+<h2 id="brush-paint-update">Brush Paint Update<a class="headerlink" href="#brush-paint-update" title="Permanent link">&para;</a></h2>
+<h4 id="-falloff-preset">- Falloff Preset<a class="headerlink" href="#-falloff-preset" title="Permanent link">&para;</a></h4>
+<p><figure markdown>
+  <img alt="Faloff Preset" src="../assets/images/falloff.png" />
+  <figcaption>You can now change the falloff type for surface brush and projected brush. There are 3 presets: constant, smooth, and linear.</figcaption>
+</figure></p>
+<div class="admonition note">
+<p class="admonition-title">Removed Options</p>
+<ul>
+<li>Old falloff pressure and falloff sliders have been removed.</li>
+<li>Removed size pressure since strength pressure is usually enough for weight painting.</li>
+</ul>
+</div>
+<h4 id="-connected-only-option-for-brush">- Connected Only Option for Brush<a class="headerlink" href="#-connected-only-option-for-brush" title="Permanent link">&para;</a></h4>
+<p>You can now check the "Connected Only" option. This limits your weight painting to only affect the connected surface parts.</p>
+<p><figure markdown>
+  <img alt="Orbit fix" src="../assets/images/1_2_projected_enable_connected_only.gif" />
+</figure></p>
+<p><figure markdown>
+  <img alt="Orbit fix" src="../assets/images/1_2_surface_enable_connected.gif" />
+</figure></p>
+<h4 id="-support-off-mesh-painting-when-using-surface-brush">- Support Off-Mesh Painting when using Surface Brush<a class="headerlink" href="#-support-off-mesh-painting-when-using-surface-brush" title="Permanent link">&para;</a></h4>
+<p><figure markdown>
+  <img alt="Orbit fix" src="../assets/images/1_2_silhouette_paint.gif" />
+  <figcaption>Surface brush can now be used even when the brush cursor is outside the mesh. This helps you fine-tune silhouettes much easier.</figcaption>
+</figure></p>
+<h4 id="-brush-hud-color-customization">- Brush HUD Color Customization<a class="headerlink" href="#-brush-hud-color-customization" title="Permanent link">&para;</a></h4>
+<p><figure markdown>
+  <img alt="Orbit fix" src="../assets/images/1_2_BrushHUD.png" />
+  <figcaption>Now you can change cursor colors in the cursor dropdown menu.</figcaption>
+</figure></p>
+<h2 id="enhanced-sharpen-weight">Enhanced Sharpen Weight<a class="headerlink" href="#enhanced-sharpen-weight" title="Permanent link">&para;</a></h2>
+<p><figure markdown>
+  <img alt="Orbit fix" src="../assets/images/1_2_sharpen.gif" />
+  <figcaption>The new sharpen weight has been heavily improved.</figcaption>
+</figure></p>
+<h2 id="new-behavior-keep-volume">New Behavior: Keep Volume<a class="headerlink" href="#new-behavior-keep-volume" title="Permanent link">&para;</a></h2>
+<h4 id="-easily-paint-weight-clothes">- Easily Paint Weight Clothes!<a class="headerlink" href="#-easily-paint-weight-clothes" title="Permanent link">&para;</a></h4>
+<p><figure markdown>
+  <img alt="Orbit fix" src="../assets/images/1_2_volume2.gif" />
+  <figcaption>When Keep Volume is on, it automatically keeps mesh distance and connects separated seams nicely.</figcaption>
+</figure></p>
+<h4 id="-supports-both-brush-and-vertex-modes">- Supports both Brush and Vertex modes<a class="headerlink" href="#-supports-both-brush-and-vertex-modes" title="Permanent link">&para;</a></h4>
+<p><figure markdown>
+  <img alt="Orbit fix" src="../assets/images/1_2_volume3.gif" />
+  <figcaption>Keep volume works in all modes—whether you are using brush paint, vertex selection, or clicking flood weight from the N-panel.</figcaption>
+</figure></p>
+<h4 id="-keep-separate-surface-selection-as-one">- Keep Separate Surface Selection as One<a class="headerlink" href="#-keep-separate-surface-selection-as-one" title="Permanent link">&para;</a></h4>
+<p><figure markdown>
+  <img alt="Orbit fix" src="../assets/images/1_2_volume4.gif" />
+  <figcaption>When keep volume is enabled, you can select vertices across connected seams as if they were a single mesh.</figcaption>
+</figure></p>
+<h2 id="uxui-improvement">UX&amp;UI Improvement<a class="headerlink" href="#uxui-improvement" title="Permanent link">&para;</a></h2>
+<h4 id="-update-behavior-across-vertex-selection-and-brush-mode">- Update Behavior Across Vertex Selection and Brush Mode<a class="headerlink" href="#-update-behavior-across-vertex-selection-and-brush-mode" title="Permanent link">&para;</a></h4>
+<p><figure markdown>
+  <img alt="Orbit fix" src="../assets/images/1_2_vertex_tool.gif" />
+  <figcaption>hammer weight, self transfer, and copy vertex weight will now only show up in vertex mode.</figcaption>
+</figure></p>
+<p><figure markdown>
+  <img alt="Orbit fix" src="../assets/images/1_2_mask_brush.gif" />
+  <figcaption>If you have a vertex selection and switch to brush mode, it will automatically isolate the selected area.</figcaption>
+</figure></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>To keep things clean, we removed add vertex selection, remove selection, and hide/unhide mesh features from brush mode. Those tasks now belong fully to vertex mode.</p>
+</div>
+<h4 id="-weight-steps">- Weight Steps<a class="headerlink" href="#-weight-steps" title="Permanent link">&para;</a></h4>
+<p><figure markdown>
+  <img alt="Orbit fix" src="../assets/images/1_2_panel_slider.png" />
+  <figcaption>Added step buttons for sliders in the N-panel.</figcaption>
+</figure></p>
+<p><figure markdown>
+  <img alt="Orbit fix" src="../assets/images/1_2_subtle_value_steps.gif" />
+  <figcaption>Use weight step buttons to smoothly increase or decrease weight values. This makes weights easier to control and perfectly fits the feel of each weight operation.</figcaption>
+</figure></p>
+<h4 id="-refine-slider-pop-up-ui">- Refine Slider Pop-up UI<a class="headerlink" href="#-refine-slider-pop-up-ui" title="Permanent link">&para;</a></h4>
+<p><figure markdown>
+  <img alt="Orbit fix" src="../assets/images/1_2_popup_brush.png" />
+  <figcaption>Brush Mode - Right Click Popup Weight Slider</figcaption>
+</figure></p>
+<p><figure markdown>
+  <img alt="Orbit fix" src="../assets/images/1_2_popup_vertex.png" />
+  <figcaption>Vertex Mode - Right Click Popup Weight Slider</figcaption>
+</figure></p>
+<h4 id="-select-multiple-bones-faster-with-lasso">- Select Multiple Bones Faster with Lasso<a class="headerlink" href="#-select-multiple-bones-faster-with-lasso" title="Permanent link">&para;</a></h4>
+<p><figure markdown>
+  <img alt="Orbit fix" src="../assets/images/1_2_lasso_bone_picker.gif" />
+  <figcaption>Click and drag around the bones to automatically use lasso selection.</figcaption>
+</figure></p>
+<h4 id="-add-bone-hud-color-customization">- Add Bone HUD Color Customization<a class="headerlink" href="#-add-bone-hud-color-customization" title="Permanent link">&para;</a></h4>
+<p><figure markdown>
+  <img alt="Orbit fix" src="../assets/images/1_2_bone_hud_color.png" />
+  <figcaption>You now can set the color of bones HUD.</figcaption>
+</figure></p>
+<h4 id="-add-mirror-to-all-layers-option">- Add Mirror to All Layers Option<a class="headerlink" href="#-add-mirror-to-all-layers-option" title="Permanent link">&para;</a></h4>
+<p><figure markdown>
+  <img alt="Orbit fix" src="../assets/images/1_2_mirror_all_layers.png" />
+  <figcaption>Added a "mirror to all layers" option. Since most characters are symmetrical, turning this on ensures you never forget to mirror other layers and saves time from having to select every layer manually.</figcaption>
+</figure></p>
+<h4 id="-add-show-shortcut-hint-option">- Add Show Shortcut Hint Option<a class="headerlink" href="#-add-show-shortcut-hint-option" title="Permanent link">&para;</a></h4>
+<p><figure markdown>
+  <img alt="Orbit fix" src="../assets/images/1_2_show_shortcut_hint.png" />
+  <figcaption>You can now toggle shortcut hints on and off through the add-on settings button.</figcaption>
+</figure></p>
+<h2 id="other-improvements">Other Improvements<a class="headerlink" href="#other-improvements" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Improved smooth weight to work much better on dense topology meshes without needing overly high smooth settings.</li>
+<li>Improved the block weight algorithm for the face ring option.</li>
+<li>Improved the UI so self-transfer is easier to use without needing to toggle out to set a new source.</li>
+<li>Improved camera rotation to be more easier to control.</li>
+<li>Improved mirror weight performance.</li>
+<li>Removed smooth and repeat options from block weight since they duplicated the regular smooth buttons in the N-panel.</li>
+<li>Fixed a bug where block weight popups could not edit past values if a bone was selected after using block weight.</li>
+<li>Fixed the right-click popup in brush and vertex modes where settings would close immediately after changing them.</li>
+<li>Fixed shortcut bugs where add-on shortcuts leaked into native Blender weight paint mode.</li>
+<li>Fixed vertex weight operation gestures to be more compatible with pen tablets.</li>
+<li>Prevented native brush settings popups from showing up when pressing Alt+F, Shift+F, or Ctrl+F.</li>
+</ul>
+</details>
+<h1 class="release-anchor" id="117">1.1.7<a class="headerlink" href="#117" title="Permanent link">&para;</a></h1>
+<details class="note">
+<summary>1.1.7</summary>
+<ul>
+<li>
+<p>Fixed: While weight painting, orbiting now rotates around the bone you last selected or the spot you last painted.</p>
+</li>
+<li>
+<p>Fixed: The Bake popup is shorter and narrower, with a Bake button instead of OK.</p>
+</li>
+</ul>
+<p><figure markdown>
+  <img alt="Orbit fix" src="../assets/images/1_1_7_orbit_fix.gif" />
+  <figcaption>Improved viewport orbiting around selection in v1.1.7</figcaption>
+</figure></p>
+</details>
+<h1 class="release-anchor" id="116">1.1.6<a class="headerlink" href="#116" title="Permanent link">&para;</a></h1>
+<details class="note">
+<summary>1.1.6</summary>
+<ul>
+<li>Fixed: with Orbit Around Selection turned on, orbiting during weight painting rotated around the character’s origin. It now rotates around the view center.</li>
+</ul>
+</details>
+<h1 class="release-anchor" id="115">1.1.5<a class="headerlink" href="#115" title="Permanent link">&para;</a></h1>
+<details class="note">
+<summary>1.1.5</summary>
+<ul>
+<li>
+<p>Fixed: Pressing Numpad . during Weight Paint mode now centers the view on the mesh weighted to the active bone, allowing orbiting directly around that bone.</p>
+</li>
+<li>
+<p>Fixed: The Bone HUD skeleton is now rendered beneath the viewport HUD text to keep the text readable.</p>
+</li>
+</ul>
+</details>
+<h1 class="release-anchor" id="114">1.1.4<a class="headerlink" href="#114" title="Permanent link">&para;</a></h1>
+<details class="note">
+<summary>1.1.4</summary>
+<ul>
+<li>
+<p>Fixed: Importing weights no longer opens the file browser a second time after the import completes.</p>
+</li>
+<li>
+<p>Import now opens the file browser directly. Import settings (Method, Preserve Existing Layers) are in an Options section of the file browser's side panel.</p>
+</li>
+<li>
+<p>Import and Export are only enabled when a mesh is selected in the viewport. Export also requires the mesh to contain layer data.</p>
+</li>
+</ul>
+</details>
+<h1 class="release-anchor" id="113">1.1.3<a class="headerlink" href="#113" title="Permanent link">&para;</a></h1>
+<details class="note">
+<summary>1.1.3</summary>
+<ul>
+<li>
+<p>Add, Scale and Smooth now show a warning in the status bar when weight could not be distributed or pulled from other bones, or when Smooth found nothing to change, with a hint that some bones may be locked</p>
+</li>
+<li>
+<p>Edit Weight Mode now shows how many vertices are hidden at the bottom of the viewport until they are revealed</p>
+</li>
+<li>
+<p>The Deform Bones list is now locked outside Edit Weight Mode and can only be used while editing weights</p>
+</li>
+<li>
+<p>Select Locked and Select Unlocked now show a message when no bone matches</p>
+</li>
+<li>
+<p>Fixed Select Locked and Select Unlocked clearing the current bone selection when no bone matched</p>
+</li>
+<li>
+<p>Fixed the add-on panel shifting up slightly when switching to Pose Mode</p>
+</li>
+</ul>
+</details>
+<h1 class="release-anchor" id="112">1.1.2<a class="headerlink" href="#112" title="Permanent link">&para;</a></h1>
+<details class="note">
+<summary>1.1.2</summary>
+<ul>
+<li>
+<p>Improve toast HUD for Limit Total, Normalize, and Selection tools</p>
+</li>
+<li>
+<p>Fix "Weight brush not found" warning when entering Weight Paint mode</p>
+</li>
+<li>
+<p>Add documentation link to the add-on manifest and remove the Gumroad link button from the UI</p>
+</li>
+</ul>
+</details>
+<h1 class="release-anchor" id="111">1.1.1<a class="headerlink" href="#111" title="Permanent link">&para;</a></h1>
+<details class="note">
+<summary>1.1.1</summary>
+<ul>
+<li>Restore the "Preserve Existing Layers" option in the Import Weight dialog</li>
+</ul>
+</details>
+<h1 class="release-anchor" id="110-minor-update">1.1.0 ( Minor Update )<a class="headerlink" href="#110-minor-update" title="Permanent link">&para;</a></h1>
+<details class="note">
+<summary>1.1.0 ( Minor Update )</summary>
+<h3 id="mirror-weight-settings-update">Mirror Weight Settings Update<a class="headerlink" href="#mirror-weight-settings-update" title="Permanent link">&para;</a></h3>
+<p><img alt="Edit Tools" src="../assets/images/1_1_hud_mirror.png" /> </p>
+<ul>
+<li>Since Blender mostly mirrors in the X-axis anyway, we made the mirror weight options simpler.</li>
+<li>Added a target side HUD preview: the blue plane area shows the target side for mirroring.</li>
+<li>The "Use Custom Keywords" option is now an optional setting, intended only for users who use keywords that differ greatly from the standard ones. General users no longer need to configure this.</li>
+</ul>
+<h3 id="bone-hud-update">Bone Hud Update<a class="headerlink" href="#bone-hud-update" title="Permanent link">&para;</a></h3>
+<p><img alt="Edit Tools" src="../assets/images/1_1_hud_bone.png" /> </p>
+<ul>
+<li>Improved the Bone HUD display to make it clearer to see.</li>
+</ul>
+<p><img alt="Edit Tools" src="../assets/images/1_1_hud_options.png" /> </p>
+<ul>
+<li>Added an option for "Always show bone display" to keep the Bone HUD visible all the time, located in the More Button next to the Deform Bone List (enabled by default).</li>
+<li>Moved the option for <a href="../bone_picker/">adjusting Bone Size</a> into the More Button of the Deform Bone List as well.</li>
+</ul>
+<h4 id="selection-update">Selection Update<a class="headerlink" href="#selection-update" title="Permanent link">&para;</a></h4>
+<p><img alt="Edit Tools" src="../assets/images/1_1_selection.png" /> </p>
+<ul>
+<li>Added options to select unaffected vertices / deselect unaffected vertices for greater flexibility in use.</li>
+</ul>
+<h4 id="others-bug-fix-and-improve">Others Bug fix and improve<a class="headerlink" href="#others-bug-fix-and-improve" title="Permanent link">&para;</a></h4>
+<ul>
+<li>We improved the Transfer Weight options and behavior to make them easier to understand. You can read more in <a href="../object_tools/">Weight Transfer</a></li>
+<li>The Transfer Weight list and Active Mesh list now support selecting multiple items at once.</li>
+<li>Improved the system so it can smooth between existing bone weights and empty weight areas.</li>
+<li>Now supports Apple M-Series.</li>
+<li>Improved the popup width to auto-size according to the item names automatically.</li>
+<li>Improved icons to clearly distinguish between meshes using layer-based skin weights and native weights.</li>
+</ul>
+</details>
+<h1 class="release-anchor" id="1013">1.0.13<a class="headerlink" href="#1013" title="Permanent link">&para;</a></h1>
+<details class="note">
+<summary>1.0.13</summary>
+<ul>
+<li>Weight Transfer fix: when “Use Selected Vertices Only” is on for the source, the mask is now taken from the same selected area as the weight. Before, it could come from the nearest unselected area.</li>
+<li>Improved Mask Color to see more clear.</li>
+<li>Fix deform bone list , weight color display error when amarture have no deform bones</li>
+</ul>
+</details>
+<h1 class="release-anchor" id="1012">1.0.12<a class="headerlink" href="#1012" title="Permanent link">&para;</a></h1>
+<details class="note">
+<summary>1.0.12</summary>
+<ul>
+<li>Improved performance when applying weights.</li>
+<li>Fixed skin weights breaking after editing meshes.</li>
+</ul>
+</details>
+<h1 class="release-anchor" id="1011">1.0.11<a class="headerlink" href="#1011" title="Permanent link">&para;</a></h1>
+<details class="note">
+<summary>1.0.11</summary>
+<ul>
+<li>Entering Blender's native Weight Paint Mode no longer forces the add-on mode, preserving standard workflows for non-deform vertex groups.</li>
+</ul>
+</details>
+<h1 class="release-anchor" id="1010">1.0.10<a class="headerlink" href="#1010" title="Permanent link">&para;</a></h1>
+<details class="note">
+<summary>1.0.10</summary>
+<ul>
+<li>Added a status for meshes with layer data but missing an armature modifer.</li>
+<li>Added pressure sensitivity toggles for brush size, hardness, and strength.</li>
+<li>Added a Normalize Weights button to the Limit Total popup.</li>
+<li>Increased the maximum brush size limit for surface brushes.</li>
+<li>Fixed an issue where applying weights affected non-deform vertex groups. (Crucial Bug)</li>
+</ul>
+</details>
+<h1 class="release-anchor" id="109">1.0.9<a class="headerlink" href="#109" title="Permanent link">&para;</a></h1>
+<details class="note">
+<summary>1.0.9</summary>
+<ul>
+<li>Added a button to switch to Object Mode.</li>
+<li>Added a fade-out effect when exit from Bone Picker.</li>
+<li>Added a Clear button to the Transfer Settings popup.</li>
+<li>Improved add-on performance when switching layers and smoothing weights.</li>
+<li>Fixed Armature not hiding when entering Weight Paint mode.</li>
+<li>Fixed Smoothing weight error when increast to extreme values.</li>
+</ul>
+</details>
+<h1 class="release-anchor" id="108">1.0.8<a class="headerlink" href="#108" title="Permanent link">&para;</a></h1>
+<details class="note">
+<summary>1.0.8</summary>
+<ul>
+<li>Major UI redesign.</li>
+<li>Added shortcut customization to the Settings button.</li>
+<li>Added new features: "Set Total" (limit max bone influences) and "Hammer" (average vertex weights).</li>
+<li>Removed auto-update feature.</li>
+<li>Improve add-on performances.</li>
+</ul>
+</details>
+<h1 class="release-anchor" id="107">1.0.7<a class="headerlink" href="#107" title="Permanent link">&para;</a></h1>
+<details class="note">
+<summary>1.0.7</summary>
+<ul>
+<li>Improved the bind mesh dropdown in the List Viewer to be easier to use — see <a href="../bindmesh/">Clean-up Layer Data</a> for details.</li>
+<li>Improved the <a href="../object_tools/#weight-transfer">Weight Transfer</a> interface to be easier to use.</li>
+</ul>
+</details>
+<h1 class="release-anchor" id="106">1.0.6<a class="headerlink" href="#106" title="Permanent link">&para;</a></h1>
+<details class="note">
+<summary>1.0.6</summary>
+<ul>
+<li><strong>Shortcut Guide:</strong> Press <kbd>Alt</kbd> + <kbd>4</kbd> while editing to toggle the Shortcut Guide.</li>
+<li><strong>Mask Edit Toggle:</strong> Press <kbd>Alt</kbd> + <kbd>1</kbd> while editing to toggle Mask Edit mode.</li>
+<li><strong>Selection Persistence:</strong> Exiting Mask Edit mode now preserves all active selections in the Deform Bone list.</li>
+<li><strong>Repeat Last Operation:</strong> Added support for <kbd>Shift</kbd> + <kbd>R</kbd> to repeat the most recent Apply Weight operation.</li>
+<li><strong>UI Improvements:</strong> Enhanced the user interface for both the Layer List and Deform Bone List sections.</li>
+</ul>
+<p><strong>Bug Fixes :</strong></p>
+<ul>
+<li><strong>Multi-Color Mode:</strong> Fixed display updates to ensure higher accuracy when using Mirror Weight and Auto Assign Weight.</li>
+<li><strong>Scale Weight Distribution:</strong> Improved the scaling behavior to distribute weight more intelligently based on the rig hierarchy.</li>
+</ul>
+</details>
+<h1 class="release-anchor" id="105">1.0.5<a class="headerlink" href="#105" title="Permanent link">&para;</a></h1>
+<details class="note">
+<summary>1.0.5</summary>
+<ul>
+<li>Bone Picker now shows a header text indicating that bone picking mode is active.</li>
+<li>Bone Picker now displays the name of the hovered bone.</li>
+<li>Bone Picker has a redesigned color scheme for showing bone selection status.</li>
+<li>Improved performance when hovering bones with Multi Color mode enabled.</li>
+<li>Extended add-on support to Blender 4.2 LTS and newer.</li>
+</ul>
+<p><strong>Bug Fixes :</strong></p>
+<ul>
+<li>Fixed the Viewport Overlay not being restored when exiting Edit Weight mode back to the user's normal edit mode.</li>
+<li>Fixed the Initialize system running again automatically when selecting a mesh.</li>
+</ul>
+</details>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../faq/" class="btn btn-neutral float-left" title="FAQ"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../faq/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../js/nav-tree.js"></script>
+      <script src="../js/release-anchor.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

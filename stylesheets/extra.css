@@ -1,0 +1,269 @@
+figure {
+  margin: 1.5em auto;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+/* Inline code / shortcut keys: black, bold text */
+.rst-content code:not(pre code),
+.rst-content tt:not(pre tt) {
+  color: #000;
+  font-weight: bold;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 85%;
+  letter-spacing: 0.02em;
+  padding: 1px 6px;
+}
+
+/* Keyboard keys (<kbd>): black, bold text on a light key cap */
+/* Theme uses `.rst-content :not(...)>kbd { color: inherit }`, which outranks
+   a plain selector -- hence !important */
+.rst-content kbd,
+kbd {
+  color: #000 !important;
+  background: #f3f3f3;
+  border: 1px solid #b4b4b4;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 #b4b4b4;
+  font-weight: bold;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 85%;
+  padding: 1px 6px;
+}
+
+/* Sidebar logo (top left): adjust margin / size here */
+.wy-side-nav-search > a img.logo {
+  margin: 0 auto 0.2em;  /* top | left-right | bottom */
+  max-width: 100%;
+}
+
+/* Logo link: theme adds margin-bottom .809em and inline-block line gap
+   below it -- remove so the logo sits right above the search bar */
+.wy-side-nav-search > a {
+  display: block;
+  margin-bottom: 0.4em;  /* gap between logo and search bar */
+  padding: 0;
+}
+
+/* Blue box around the logo + search (theme default padding: .809em) */
+.wy-side-nav-search {
+  padding: 0.2em 0.809em 0.4em;  /* top | left-right | bottom */
+}
+
+/* !!! note box: dark gray card to match the dark content pane */
+.rst-content .admonition.note {
+  background: #2a2c30;                 /* box body */
+  border-left: 4px solid #4dabf7;      /* accent bar */
+  border-radius: 4px;
+}
+
+.rst-content .admonition.note .admonition-title {
+  background: #2c3e50;                 /* title bar (blue-tinted gray) */
+  color: #e6e6e6;
+}
+
+.rst-content .admonition.note .admonition-title::before {
+  color: #4dabf7;                      /* (i) icon */
+}
+
+.rst-content .admonition.note,
+.rst-content .admonition.note p,
+.rst-content .admonition.note li,
+.rst-content .admonition.note strong {
+  color: #e6e6e6;                      /* box text */
+}
+
+/* ??? collapsible box (pymdownx.details): dark blue card, white text */
+/* details[class] outranks the theme's `.rst-content .warning` etc., which
+   would otherwise paint `??? warning` boxes yellow with extra padding */
+.rst-content details,
+.rst-content details[class] {
+  background: #1b2a41;                 /* box body (dark navy) */
+  border-left: 4px solid #4dabf7;      /* accent bar */
+  border-radius: 4px;
+  color: #fff;
+  margin-bottom: 1em;
+  padding: 0 12px;
+}
+
+.rst-content details > summary {
+  background: #22395a;                 /* title bar (slightly lighter blue) */
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 -12px;
+  padding: 8px 12px;
+  border-radius: 0 4px 4px 0;
+}
+
+.rst-content details[open] > summary {
+  margin-bottom: 0.8em;
+  border-radius: 0 4px 0 0;
+}
+
+/* Opened content: gray-black body, light text (title bar stays blue) */
+.rst-content details[open],
+.rst-content details[open][class] {
+  background: #2b2d31;
+}
+
+.rst-content details p,
+.rst-content details li,
+.rst-content details figcaption,
+.rst-content details em {
+  color: #e6e6e6;                      /* box text */
+}
+
+.rst-content details h1,
+.rst-content details h2,
+.rst-content details h3,
+.rst-content details h4,
+.rst-content details strong {
+  color: #fff;
+}
+
+.rst-content details a {
+  color: #74c0fc;                      /* links readable on gray-black */
+}
+
+/* ---------- Sidebar tree (+ / − style) ---------- */
+/* `.wy-nav-side` prefix outranks the theme's `.wy-menu-vertical li.current>a` */
+
+/* Section caption, e.g. "How to use": the name opens the section's page,
+   the +/- button folds it (see js/nav-tree.js) */
+.wy-nav-side .wy-menu-vertical p.caption {
+  position: relative;
+  margin: 0;                           /* theme adds a 12px gap above */
+  height: auto;                        /* theme: 32px, taller than a page row */
+  line-height: 18px;
+  padding: 0;                          /* the link below fills the whole bar */
+  color: #e6e6e6;
+  font-size: 90%;
+  font-weight: normal;
+  text-transform: none;
+  user-select: none;
+}
+
+.wy-nav-side .wy-menu-vertical p.caption .caption-text,
+.wy-nav-side .wy-menu-vertical p.caption a {
+  display: block;
+}
+
+.wy-nav-side .wy-menu-vertical p.caption a {
+  padding: 0.4045em 1.618em;           /* same as a page row */
+  line-height: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+}
+
+.wy-nav-side .wy-menu-vertical p.caption:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.wy-nav-side .wy-menu-vertical p.caption .nav-fold {
+  position: absolute;                  /* sits in the bar's left padding */
+  top: 0;
+  left: 0.418em;
+  z-index: 1;
+  width: 1.2em;
+  height: 100%;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  /* open: reduce icon, folded: add icon */
+  background: url("../assets/images/reduce.png") no-repeat left center / 10px 10px;
+}
+
+.wy-nav-side .wy-menu-vertical p.caption.collapsed .nav-fold {
+  background-image: url("../assets/images/add.png");
+}
+
+.wy-nav-side .wy-menu-vertical p.caption.collapsed + ul {
+  display: none;
+}
+
+/* No gray "open" box behind expanded items */
+.wy-nav-side .wy-menu-vertical li.current,
+.wy-nav-side .wy-menu-vertical li.current > a,
+.wy-nav-side .wy-menu-vertical li.current a {
+  background: transparent;
+  border: none;
+}
+
+/* Top-level pages */
+.wy-nav-side .wy-menu-vertical li.toctree-l1 > a {
+  color: #e6e6e6;
+  font-weight: normal;
+  padding: 0.4045em 1.618em;
+}
+
+/* Pages inside a section: indented, blue */
+.wy-nav-side .wy-menu-vertical p.caption + ul > li.toctree-l1 > a {
+  color: #6cb6ff;
+  padding-left: 2.818em;
+}
+
+.wy-nav-side .wy-menu-vertical a:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+/* Page you're on. The theme renders its link as href="#", and moves
+   `.current` off it when the URL points at a heading (e.g. faq/#...) */
+.wy-nav-side .wy-menu-vertical a.current,
+.wy-nav-side .wy-menu-vertical li.current > a.current,
+.wy-nav-side .wy-menu-vertical li.toctree-l1 > a[href="#"],
+.wy-nav-side .wy-menu-vertical p.caption + ul > li.toctree-l1 > a.current,
+.wy-nav-side .wy-menu-vertical p.caption + ul > li.toctree-l1 > a[href="#"] {
+  color: #fff;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: inset 3px 0 0 #4dabf7;   /* blue bar on the left */
+}
+
+/* Top-level (#) headings of the page you're on, listed under its sidebar
+   entry like sub pages (see overrides/nav.html) */
+.wy-nav-side .wy-menu-vertical li.toctree-l1 > a button.toctree-expand,
+.wy-nav-side .wy-menu-vertical li.toctree-l2 > a button.toctree-expand {
+  display: none;                       /* no +/- */
+}
+
+.wy-nav-side .wy-menu-vertical li.toctree-l1.current > ul {
+  display: block;
+}
+
+/* `li.current` outranks the theme's gray box on a clicked heading */
+.wy-nav-side .wy-menu-vertical li.toctree-l2 > a,
+.wy-nav-side .wy-menu-vertical li.toctree-l2.current > a {
+  background: transparent;
+  color: #b8c4d0;
+  font-size: 90%;
+  font-weight: normal;
+  padding: 0.3em 1.618em 0.3em 3.2em;
+  border: none;
+  box-shadow: none;
+}
+
+/* Pages inside a section: their headings sit one step further in */
+.wy-nav-side .wy-menu-vertical p.caption + ul li.toctree-l2 > a {
+  padding-left: 4.2em;
+}
+
+.wy-nav-side .wy-menu-vertical li.toctree-l2 > a:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* Release notes: version headings stay in the sidebar and search but are not
+   drawn, since the collapsible block's title already shows the version */
+.rst-content h1.release-anchor {
+  height: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  visibility: hidden;
+}

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://docs.superskinpro.com/object_tools/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Object Mode Tools - Super Skin Pro Documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../stylesheets/extra.css" rel="stylesheet" />
+        <link href="../stylesheets/readthedocs-dark.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Object Mode Tools";
+        var mkdocs_page_input_path = "object_tools.md";
+        var mkdocs_page_url = "/object_tools/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="..">
+          <img src="../assets/images/superskinpro_label_bevel.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Introduction</a>
+    <ul>
+    </ul>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">How to use</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../skinning_tab/">Quick Start</a>
+    <ul>
+    <li class="toctree-l2"><a class="reference internal" href="../skinning_tab/#interface-overview">Interface Overview</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../bone_picker/">Bone Picker</a>
+    <ul>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Object Mode Tools</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#weight-transfer">Weight Transfer</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#weight-export">Weight Export</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#weight-import">Weight Import</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../edit_tools/">Paint Weight Tools</a>
+    <ul>
+    <li class="toctree-l2"><a class="reference internal" href="../edit_tools/#quick-start">Quick Start</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../edit_tools/#general-tools">General Tools</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../edit_tools/#brush-mode-tools">Brush Mode Tools</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../edit_tools/#vertex-mode-tools">Vertex Mode Tools</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../bindmesh/">Bake to Blender Native</a>
+    <ul>
+    <li class="toctree-l2"><a class="reference internal" href="../bindmesh/#bake-layer-data-to-blender-native">Bake Layer Data to Blender Native</a>
+    </li>
+    </ul>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../installation/">How to Install</a>
+    <ul>
+    <li class="toctree-l2"><a class="reference internal" href="../installation/#drag-and-drop-installation">Drag-and-Drop Installation</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../installation/#how-to-update">How to Update</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../faq/">FAQ</a>
+    <ul>
+    <li class="toctree-l2"><a class="reference internal" href="../faq/#faq-frequently-asked-questions">FAQ (Frequently Asked Questions)</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../release_notes/">Release Notes</a>
+    <ul>
+    <li class="toctree-l2"><a class="reference internal" href="../release_notes/#123">1.2.3</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../release_notes/#122">1.2.2</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../release_notes/#121">1.2.1</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../release_notes/#120-minor-update">1.2.0 ( Minor Update )</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../release_notes/#117">1.1.7</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../release_notes/#116">1.1.6</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../release_notes/#115">1.1.5</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../release_notes/#114">1.1.4</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../release_notes/#113">1.1.3</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../release_notes/#112">1.1.2</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../release_notes/#111">1.1.1</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../release_notes/#110-minor-update">1.1.0 ( Minor Update )</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../release_notes/#1013">1.0.13</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../release_notes/#1012">1.0.12</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../release_notes/#1011">1.0.11</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../release_notes/#1010">1.0.10</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../release_notes/#109">1.0.9</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../release_notes/#108">1.0.8</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../release_notes/#107">1.0.7</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../release_notes/#106">1.0.6</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="../release_notes/#105">1.0.5</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Super Skin Pro Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">How to use</li>
+      <li class="breadcrumb-item active">Object Mode Tools</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="object-mode-tools">Object Mode Tools<a class="headerlink" href="#object-mode-tools" title="Permanent link">&para;</a></h1>
+<figure>
+<p><img alt="Deform Bone List" src="../assets/images/object_tools.png" /></p>
+</figure>
+<hr />
+<h1 id="weight-transfer">Weight Transfer<a class="headerlink" href="#weight-transfer" title="Permanent link">&para;</a></h1>
+<p>Weight transfer supports any number of source and target meshes. It can be used in various ways, such as:</p>
+<h3 id="1-transfer-weights-from-the-body-to-clothing-and-accessories">1) Transfer weights from the body to clothing and accessories<a class="headerlink" href="#1-transfer-weights-from-the-body-to-clothing-and-accessories" title="Permanent link">&para;</a></h3>
+<figure>
+<p><img alt="Weight Transfer Body to Clothing" src="../assets/images/transfer1.gif" /></p>
+</figure>
+<p><strong>How to use:</strong></p>
+<ol>
+<li>Add both the body and clothing to the Transfer list.</li>
+<li>Mark the body mesh as <strong>Source</strong>.</li>
+<li>Click <strong>Transfer Weight</strong>.</li>
+</ol>
+<h3 id="2-transfer-weights-from-multiple-meshes">2) Transfer weights from multiple meshes<a class="headerlink" href="#2-transfer-weights-from-multiple-meshes" title="Permanent link">&para;</a></h3>
+<figure>
+<p><img alt="Weight Transfer Multiple Meshes" src="../assets/images/transfer2.gif" /></p>
+</figure>
+<p><strong>How to use:</strong></p>
+<ol>
+<li>Add the source meshes and the target mesh to the Transfer list.</li>
+<li>Mark the relevant meshes as <strong>Source</strong>.</li>
+<li>Click <strong>Transfer Weight</strong>.</li>
+</ol>
+<h3 id="3-and-much-more-as-demonstrated-in-the-video">3) And much more as demonstrated in the video<a class="headerlink" href="#3-and-much-more-as-demonstrated-in-the-video" title="Permanent link">&para;</a></h3>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe 
+    src="https://www.youtube.com/embed/MsszYELKnHA" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+<p><br>
+<strong>Other Transfer Options:</strong></p>
+<ul>
+<li>
+<p>You can restrict the transfer to specific source or target areas by enabling the <strong>Use Selected Vertices Only</strong> toggle (the selection must exist in Edit Mode).</p>
+</li>
+<li>
+<p>If the target already has a layer system, the output will be added as a new layer named "Transfer Output".</p>
+</li>
+<li>
+<p>Enabling the <strong>Force Target to Init Layer</strong> checkbox forces layer data initialization for all target meshes if they are still using native vertex groups.</p>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Armature Parenting</p>
+<p>Target meshes do not need to be parented to an armature beforehand, as the tool will automatically parent them during the transfer. However, the <strong>source mesh must always be parented to an armature first</strong>.</p>
+</div>
+<hr />
+<h1 id="weight-export">Weight Export<a class="headerlink" href="#weight-export" title="Permanent link">&para;</a></h1>
+<p>Export all layer data and skin weights from a selected mesh to a file.</p>
+<p><strong>How to use:</strong></p>
+<ol>
+<li>Select the mesh you want to export layer data from.</li>
+<li>Click <strong>Export Weights</strong>.</li>
+</ol>
+<hr />
+<h1 id="weight-import">Weight Import<a class="headerlink" href="#weight-import" title="Permanent link">&para;</a></h1>
+<figure>
+<p><img alt="Weight Import" src="../assets/images/weight_import.png" /></p>
+</figure>
+<p><strong>How to use:</strong></p>
+<ol>
+<li>Select the target mesh you want to import weights to.</li>
+<li>Click <strong>Import Weights</strong>.</li>
+</ol>
+<p><strong>Options:</strong></p>
+<ul>
+<li><strong>Transfer Method:</strong> Choose a weight transfer method during import, such as <strong>Closest Distance</strong> or <strong>Vertex ID</strong>.</li>
+<li><strong>Preserve Existing Layers:</strong> Check this option to keep current layers on the mesh. <em>(This option only appears if the target mesh already has layer data.)</em></li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../bone_picker/" class="btn btn-neutral float-left" title="Bone Picker"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../edit_tools/" class="btn btn-neutral float-right" title="Paint Weight Tools">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../bone_picker/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../edit_tools/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../js/nav-tree.js"></script>
+      <script src="../js/release-anchor.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

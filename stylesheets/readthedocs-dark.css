@@ -1,0 +1,108 @@
+/* Experimental dark palette for the built-in "readthedocs" mkdocs theme.
+   Only the content pane (right side) is themed -- the left sidebar/menu
+   keeps the theme's default colors untouched.
+   Preview only -- not wired into the real mkdocs.yml yet. */
+
+:root {
+  --rtd-bg: #1e1f22;
+  --rtd-bg-raised: #2a2c30;
+  --rtd-border: #34373c;
+  --rtd-text: #e6e6e6;
+  --rtd-text-muted: #a9adb4;
+  --rtd-accent: #4dabf7;
+  --rtd-accent-hover: #74c0fc;
+}
+
+/* Content pane background */
+.wy-nav-content-wrap {
+  background: var(--rtd-bg);
+}
+
+.wy-nav-content {
+  background: var(--rtd-bg);
+}
+
+.rst-content,
+.rst-content p,
+.rst-content li,
+.rst-content h1,
+.rst-content h2,
+.rst-content h3,
+.rst-content h4 {
+  color: var(--rtd-text);
+}
+
+.rst-content a,
+.rst-content a:visited {
+  color: var(--rtd-accent);
+}
+
+.rst-content a:hover {
+  color: var(--rtd-accent-hover);
+}
+
+.wy-breadcrumbs li,
+.wy-breadcrumbs li a {
+  color: var(--rtd-text-muted);
+}
+
+/* Code */
+.rst-content code.literal,
+.rst-content tt.literal,
+code {
+  background: var(--rtd-bg-raised);
+  color: var(--rtd-text);
+  border-color: var(--rtd-border);
+}
+
+.codehilite,
+.highlight {
+  background: var(--rtd-bg-raised) !important;
+}
+
+.codehilite *,
+.highlight * {
+  color: var(--rtd-text) !important;
+  background: transparent !important;
+}
+
+/* Tables */
+.rst-content table.docutils,
+.wy-table {
+  background: var(--rtd-bg);
+  border-color: var(--rtd-border);
+}
+
+.rst-content table.docutils thead,
+.wy-table thead {
+  background: var(--rtd-bg-raised);
+}
+
+.rst-content table.docutils td,
+.rst-content table.docutils th,
+.wy-table td,
+.wy-table th {
+  border-color: var(--rtd-border) !important;
+  color: var(--rtd-text);
+}
+
+/* Misc */
+.rst-content hr {
+  border-color: var(--rtd-border);
+}
+
+.rst-content blockquote {
+  color: var(--rtd-text-muted);
+  border-left-color: var(--rtd-border);
+}
+
+.rst-footer-buttons .btn,
+.btn-neutral {
+  background: var(--rtd-bg-raised) !important;
+  color: var(--rtd-text) !important;
+  border-color: var(--rtd-border) !important;
+}
+
+figure figcaption {
+  color: var(--rtd-text-muted);
+}
